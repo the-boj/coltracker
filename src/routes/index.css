@@ -1,0 +1,29 @@
+.category-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease; /* Smooth transition */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.category-item:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.category-image {
+  max-width: 200px;
+  max-height: 90%;
+  transition: transform 0.3s ease; /* Smooth transition for image */
+}
+
+.category-item:hover .category-image {
+  transform: scale(1.1); /* Slightly scale the image on hover */
+}
+
+.cell-table:hover {
+  background-color: #7b7a7a;
+}

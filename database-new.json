@@ -1,0 +1,2331 @@
+{
+  "categories": [
+    {
+      "id": "gc",
+      "name": "Gamecube",
+      "image": "gamecube.svg"
+    }
+  ],
+  "gc": [
+    {
+      "id": "c2a14ee2-92ad-47aa-9deb-754096ace05d",
+      "name": "1080° Avalanche",
+      "status": "not-owned"
+    },
+    {
+      "id": "401d32e9-01ae-4ba9-b26f-b70346278483",
+      "name": "18 Wheeler: American Pro Trucker",
+      "status": "not-owned"
+    },
+    {
+      "id": "71a7fbdf-429d-4b10-8360-9ce784309b83",
+      "name": "2002 FIFA World Cup",
+      "status": "not-owned"
+    },
+    {
+      "id": "a3a2d37a-540b-43ff-aef4-c100a78059a2",
+      "name": "2006 FIFA World Cup",
+      "status": "not-owned"
+    },
+    {
+      "id": "d0355c7b-cd3a-4239-a673-0ea357f12a63",
+      "name": "ATV: Quad Power Racing 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "dba0fcc8-3cb3-44e4-b7e0-1191b9c0900e",
+      "name": "Aggressive Inline",
+      "status": "not-owned"
+    },
+    {
+      "id": "79950fc8-90bd-4061-b439-1ae529bbd8e7",
+      "name": "Animal Crossing",
+      "status": "not-owned"
+    },
+    {
+      "id": "b8bfa554-f2dd-4f35-b326-5f4ce36ffb22",
+      "name": "Animaniacs: The Great Edgar Hunt",
+      "status": "not-owned"
+    },
+    {
+      "id": "4cd57cac-270a-4f65-8b0b-fa4afdb21ff1",
+      "name": "Asterix & Obelix XXL",
+      "status": "not-owned"
+    },
+    {
+      "id": "207577ca-4b08-476b-9a66-6302be9128ff",
+      "name": "Avatar: Le Dernier Maitre de l'Air",
+      "status": "not-owned"
+    },
+    {
+      "id": "ca533041-6963-4bab-9b3f-c119ee58cc33",
+      "name": "BMX XXX",
+      "status": "not-owned"
+    },
+    {
+      "id": "b96565be-5a8c-4c16-a47d-cc80ba68f639",
+      "name": "Bad Boys: Miami Takedown",
+      "status": "not-owned"
+    },
+    {
+      "id": "93e6ee09-481b-41be-8703-7253afe549f9",
+      "name": "Baldur's Gate: Dark Alliance",
+      "status": "not-owned"
+    },
+    {
+      "id": "2327ea64-1318-48f5-a4b1-24337f151ece",
+      "name": "Baten Kaitos: Eternal Wings and the Lost Ocean",
+      "status": "not-owned"
+    },
+    {
+      "id": "e825e9a0-6a72-4b18-8435-2de3e1567290",
+      "name": "Batman Begins",
+      "status": "not-owned"
+    },
+    {
+      "id": "37df46df-60cd-4e69-9aab-74da8b3c2dfa",
+      "name": "Batman: Dark Tomorrow",
+      "status": "not-owned"
+    },
+    {
+      "id": "67f0c84c-8e67-49d5-94e6-5f611cdc7647",
+      "name": "Batman: Rise of Sin Tzu",
+      "status": "not-owned"
+    },
+    {
+      "id": "6e107405-69aa-4d80-9e6a-a05d9ada607f",
+      "name": "Batman: Vengeance",
+      "status": "not-owned"
+    },
+    {
+      "id": "d3798536-a434-4b2a-9429-8e78f71f51a3",
+      "name": "Battalion Wars",
+      "status": "not-owned"
+    },
+    {
+      "id": "815a488d-5a6b-4219-a91e-956971e969ff",
+      "name": "Battlefront 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "699b7e8b-5b52-4c66-842e-47fe918963c2",
+      "name": "Beach Spikers",
+      "status": "not-owned"
+    },
+    {
+      "id": "72156b8c-b7a4-40cd-852b-8c97e4f7321f",
+      "name": "Beyblade VForce: Super Tournament Battle",
+      "status": "not-owned"
+    },
+    {
+      "id": "88979019-8070-4796-892b-799ebb4ba96d",
+      "name": "Beyond Good & Evil",
+      "status": "not-owned"
+    },
+    {
+      "id": "dd042857-6ceb-4afb-b818-fc2d56071a31",
+      "name": "Big Air Freestyle",
+      "status": "not-owned"
+    },
+    {
+      "id": "cad09eaa-c6c9-414b-8872-8b389322a262",
+      "name": "Big Mutha Truckers",
+      "status": "not-owned"
+    },
+    {
+      "id": "215d980b-4dfd-4457-af18-28daf73a9a5e",
+      "name": "Billy Hatcher and the Giant Egg",
+      "status": "not-owned"
+    },
+    {
+      "id": "3cd52532-5f17-4df2-a33c-8fb0ed26e0f1",
+      "name": "Bionicle",
+      "status": "not-owned"
+    },
+    {
+      "id": "7aa16b3a-8b27-4272-99a7-095c30efd1e1",
+      "name": "Black & Bruised",
+      "status": "not-owned"
+    },
+    {
+      "id": "ab617a3e-b5b0-4b28-b51c-ecf439fca5a0",
+      "name": "Blood Omen 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "9785d346-2fca-4d31-b238-1168f8ad0384",
+      "name": "BloodRayne",
+      "status": "not-owned"
+    },
+    {
+      "id": "19dc9d24-6a81-43fc-833b-bbb48e216024",
+      "name": "Bloody Roar: Primal Fury",
+      "status": "not-owned"
+    },
+    {
+      "id": "aa185ab2-97a2-4f3c-a90d-fb89ba8a2451",
+      "name": "Bob L'Éponge: Silence on Tourne!",
+      "status": "not-owned"
+    },
+    {
+      "id": "a60b7275-cada-4e3d-a4c5-d0855352f477",
+      "name": "Bob l'Éponge: La Créature du Crabe Croustillant",
+      "status": "not-owned"
+    },
+    {
+      "id": "5a492fda-5464-4f05-836e-13e93785bf76",
+      "name": "Bob l'Éponge: Le Film",
+      "status": "not-owned"
+    },
+    {
+      "id": "936ef107-78c5-4f40-8749-d49818a7c13c",
+      "name": "Bob l'éponge et ses amis : Un pour tous, tous pour un !",
+      "status": "not-owned"
+    },
+    {
+      "id": "ab21d234-f592-42da-bd8d-6a1e3c3438f9",
+      "name": "Bomberman Generation",
+      "status": "not-owned"
+    },
+    {
+      "id": "fb876ed4-171b-42ed-9d52-eedec634351f",
+      "name": "Bons Baisers de Russie",
+      "status": "not-owned"
+    },
+    {
+      "id": "62955b3d-28eb-4884-a7ef-5bf2894ecaa3",
+      "name": "Braquage à l'Italienne",
+      "status": "not-owned"
+    },
+    {
+      "id": "b2cd9f9d-0556-4b11-8d92-6872096d0229",
+      "name": "Bratz: Forever Diamondz",
+      "status": "not-owned"
+    },
+    {
+      "id": "2496616a-4f68-405a-a775-3d3d6c226435",
+      "name": "Bratz: Rock Angelz",
+      "status": "not-owned"
+    },
+    {
+      "id": "91b6d7a3-724f-4fbb-8c7e-7502f634a2d9",
+      "name": "Budokai 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "0c0dd967-b81b-4ee8-8159-5907568f46e1",
+      "name": "Buffy Contre les Vampires: Chaos Bleeds",
+      "status": "not-owned"
+    },
+    {
+      "id": "1f8e4c7d-5067-4815-aa09-b33cf4a91d7a",
+      "name": "Burnout",
+      "status": "not-owned"
+    },
+    {
+      "id": "ba0f47f4-6ab9-4fa2-a3f0-3426fcf43328",
+      "name": "Burnout 2: Point of Impact",
+      "status": "not-owned"
+    },
+    {
+      "id": "70337ab3-1ae2-4568-93c1-0cf6c015f44f",
+      "name": "Bust-a-Move 3000",
+      "status": "not-owned"
+    },
+    {
+      "id": "c547fdac-e06a-4c26-8016-cbe2238abef0",
+      "name": "Butt-Ugly Martians: Zoom or Doom",
+      "status": "not-owned"
+    },
+    {
+      "id": "8c916f37-166a-4f78-962b-31efbf21f0d7",
+      "name": "Call of Duty 2: Big Red One",
+      "status": "not-owned"
+    },
+    {
+      "id": "b0a4f99a-9cda-4248-a335-a2d82fefd66f",
+      "name": "Call of Duty: Le Jour de Gloire",
+      "status": "not-owned"
+    },
+    {
+      "id": "c991911e-3a18-4766-8e9b-32784363895c",
+      "name": "Capcom vs. SNK 2 EO",
+      "status": "not-owned"
+    },
+    {
+      "id": "0f972f26-c798-44e2-8097-5928523ca335",
+      "name": "Carmen Sandiego: Le Secret des Tam-Tams Volés",
+      "status": "not-owned"
+    },
+    {
+      "id": "9b9349f0-e1fc-47f2-a6fd-4dd791bfc276",
+      "name": "Cars",
+      "status": "not-owned"
+    },
+    {
+      "id": "17f49f42-25ac-4d7c-909f-4804a0f16a9f",
+      "name": "Casper: Spirit Dimensions",
+      "status": "not-owned"
+    },
+    {
+      "id": "4d8c6415-6f2e-4da4-8d54-e06cd3b65a5b",
+      "name": "Castleween",
+      "status": "not-owned"
+    },
+    {
+      "id": "1589e923-39c0-47ea-a315-2d685edb86f7",
+      "name": "Catwoman",
+      "status": "not-owned"
+    },
+    {
+      "id": "475c6556-9c82-4699-aecc-3df1dd6574af",
+      "name": "Cel Damage",
+      "status": "not-owned"
+    },
+    {
+      "id": "84f967f8-68b1-4638-af64-3abd99ae475f",
+      "name": "Charlie et la Chocolaterie",
+      "status": "not-owned"
+    },
+    {
+      "id": "9e4ae551-0467-410e-b279-d491b0e7c1ec",
+      "name": "Charlie's Angels",
+      "status": "not-owned"
+    },
+    {
+      "id": "a1f6e15f-5e40-4342-8e18-9b718801d61d",
+      "name": "Chibi-Robo!",
+      "status": "not-owned"
+    },
+    {
+      "id": "9216282c-a898-4235-bdc5-33c07c629ff9",
+      "name": "Chicken Little",
+      "status": "not-owned"
+    },
+    {
+      "id": "87f07bb0-e8e3-439d-9f1e-fba37fed9c81",
+      "name": "Cocoto Funfair",
+      "status": "not-owned"
+    },
+    {
+      "id": "721099bd-a081-4391-b91e-d64581f5a3aa",
+      "name": "Cocoto Kart Racer",
+      "status": "not-owned"
+    },
+    {
+      "id": "60cc7dfc-1b55-41c6-a5d4-a4a0e75e6081",
+      "name": "Cocoto Platform Jumper",
+      "status": "not-owned"
+    },
+    {
+      "id": "fff236c7-2638-4235-b294-1681910029fd",
+      "name": "Codename: Kids Next Door - Operation: V.I.D.E.O.G.A.M.E.",
+      "status": "not-owned"
+    },
+    {
+      "id": "f567c280-2f04-4205-84e8-6c456f4714d4",
+      "name": "Conan",
+      "status": "not-owned"
+    },
+    {
+      "id": "c7d8e8ee-6df2-4a53-83c0-9a7f156e5b5e",
+      "name": "Conflict: Desert Storm",
+      "status": "not-owned"
+    },
+    {
+      "id": "49c763bc-e288-4fe9-832a-e5233b48313e",
+      "name": "Conflict: Desert Storm II",
+      "status": "not-owned"
+    },
+    {
+      "id": "b57c7b74-1e26-4599-ad6f-ce87bc0ce6f1",
+      "name": "Crash Bandicoot: La Vengeance de Cortex",
+      "status": "not-owned"
+    },
+    {
+      "id": "529f4332-52ad-4833-98f2-2c71c4e4df69",
+      "name": "Crash Nitro Kart",
+      "status": "not-owned"
+    },
+    {
+      "id": "0c18d5ae-43ec-4dfc-b4ce-ceaa7691eb77",
+      "name": "Crash Tag Team Racing",
+      "status": "not-owned"
+    },
+    {
+      "id": "53134420-ac4b-4626-b181-bc6d5edba902",
+      "name": "Crazy Taxi",
+      "status": "not-owned"
+    },
+    {
+      "id": "b8357d45-8a9c-4197-8531-abe38d4821b6",
+      "name": "Dakar 2: The World's Ultimate Rally",
+      "status": "not-owned"
+    },
+    {
+      "id": "5d56ffc2-3ff5-42ee-9628-2d2aa73fdbcc",
+      "name": "Dance Dance Revolution Mario Mix",
+      "status": "not-owned"
+    },
+    {
+      "id": "0498a229-cdc8-4b1a-9b2b-1bdb7238bff6",
+      "name": "Dark Summit",
+      "status": "not-owned"
+    },
+    {
+      "id": "e831302a-fbf3-46dc-89ab-c84f895e6220",
+      "name": "Darkened Skye",
+      "status": "not-owned"
+    },
+    {
+      "id": "a1799761-b954-4f20-acb3-997f5e32a57f",
+      "name": "Dave Mirra Freestyle BMX 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "b6879110-b30f-4cdd-9b35-6c661950dd46",
+      "name": "Dead to Rights",
+      "status": "not-owned"
+    },
+    {
+      "id": "f119c273-6b67-490b-ab4b-a1d295e98abf",
+      "name": "Def Jam Vendetta",
+      "status": "not-owned"
+    },
+    {
+      "id": "71488f9b-50da-4148-bb7d-04f8e2da6501",
+      "name": "Def Jam: Fight for NY",
+      "status": "not-owned"
+    },
+    {
+      "id": "e34f98c0-86f1-4f4e-83de-9c5f45596ea8",
+      "name": "Defender",
+      "status": "not-owned"
+    },
+    {
+      "id": "246dcc3d-99b9-4eaa-8d4e-9c3728dce232",
+      "name": "Devil May Cry",
+      "status": "not-owned"
+    },
+    {
+      "id": "e40c4a4b-aa47-4633-9ee3-1f8ab22d5092",
+      "name": "Devil May Cry 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "806e1ec4-b8ca-4d5e-ae36-53c9cfbfd983",
+      "name": "Devil May Cry 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "a5133455-04e2-47f0-b415-9bb07cf76513",
+      "name": "Die Hard: Vendetta",
+      "status": "not-owned"
+    },
+    {
+      "id": "c28020e7-5f74-4e89-aa04-660071552be0",
+      "name": "Digimon Rumble Arena 2",
+      "status": "owned"
+    },
+    {
+      "id": "3fc87f4b-aa21-46ed-902e-6959cca74c10",
+      "name": "Disney Cache-cache Furtif",
+      "status": "not-owned"
+    },
+    {
+      "id": "f08a56cd-9cdc-4721-9ffa-051704898cf7",
+      "name": "Disney Sports Basketball",
+      "status": "not-owned"
+    },
+    {
+      "id": "1602571e-ccd7-45be-942f-189143ec0d2a",
+      "name": "Disney Sports Skateboarding",
+      "status": "not-owned"
+    },
+    {
+      "id": "7718687d-d8c6-4473-8dab-fbc916323471",
+      "name": "Disney Sports Soccer",
+      "status": "not-owned"
+    },
+    {
+      "id": "73d95300-9b70-464f-82fd-68b0d422e6ec",
+      "name": "Disney's Extreme Skate Adventure",
+      "status": "not-owned"
+    },
+    {
+      "id": "0c3f9671-e5e6-4e5e-b9d2-6e89a81dd786",
+      "name": "Disney's Magical Mirror Starring Mickey Mouse",
+      "status": "not-owned"
+    },
+    {
+      "id": "45b0e6ff-e736-42ca-8a84-616df0cb951d",
+      "name": "Disney's Party",
+      "status": "not-owned"
+    },
+    {
+      "id": "b4e70d7f-4229-4790-9913-a66088572b99",
+      "name": "Donald Duck: Couak Attack",
+      "status": "not-owned"
+    },
+    {
+      "id": "0553ef7b-8cb7-4637-af6c-133fdf0735a6",
+      "name": "Donald Duck: Qui est PK ?",
+      "status": "not-owned"
+    },
+    {
+      "id": "39da7d83-2b2e-42a6-aaac-55b72a2f1a13",
+      "name": "Donkey Kong Jungle Beat",
+      "status": "not-owned"
+    },
+    {
+      "id": "4ad9c2dd-177d-4499-b9c7-0dda2b09b592",
+      "name": "Donkey Konga",
+      "status": "not-owned"
+    },
+    {
+      "id": "581f4591-41cd-43d4-9f7c-e0fba106532e",
+      "name": "Donkey Konga 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "88a5d59b-d61b-4a5e-bf87-8cfd21983e2b",
+      "name": "Dora l'Exploratrice: Voyage sur la Planète Violette",
+      "status": "not-owned"
+    },
+    {
+      "id": "a6b4da72-3aa6-4084-90a6-605c423240f1",
+      "name": "Doshin the Giant",
+      "status": "not-owned"
+    },
+    {
+      "id": "99e82cdc-ceed-43ab-8dba-379722b2a987",
+      "name": "Dragon Ball Z: Budokai",
+      "status": "not-owned"
+    },
+    {
+      "id": "af09caaa-f71c-46e4-b083-47016ef4aa4c",
+      "name": "Dragon Ball Z: Budokai 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "38752647-d19b-4e32-8acd-c0b2b204fd39",
+      "name": "Dragon's Lair 3D: Return to the Lair",
+      "status": "not-owned"
+    },
+    {
+      "id": "7c11fdd4-860f-481f-9e52-d3de4c00d80d",
+      "name": "Driven",
+      "status": "not-owned"
+    },
+    {
+      "id": "09af2e3f-6c00-46bb-800e-19c24299723d",
+      "name": "Drome Racers",
+      "status": "not-owned"
+    },
+    {
+      "id": "9675ec92-f7de-44c6-ab2d-d7404f72537b",
+      "name": "ESPN International Winter Sports 2002",
+      "status": "not-owned"
+    },
+    {
+      "id": "87eb0bb5-4faf-42db-b9dd-6f18bd82cad0",
+      "name": "Egg Mania: Eggstreme Madness",
+      "status": "not-owned"
+    },
+    {
+      "id": "1a8412f6-c855-473a-8b32-1d5fad56ee84",
+      "name": "Enter the Matrix",
+      "status": "not-owned"
+    },
+    {
+      "id": "8dc79d0b-31d1-49b4-ac64-c1c9a425fc0d",
+      "name": "Eternal Darkness: Sanity's Requiem",
+      "status": "not-owned"
+    },
+    {
+      "id": "5a1c5d2b-c592-4413-9fd5-a3f9f14f8499",
+      "name": "Evolution Skateboarding",
+      "status": "not-owned"
+    },
+    {
+      "id": "899eef27-3231-4afb-87a7-c07ae710d808",
+      "name": "Evolution Snowboarding",
+      "status": "not-owned"
+    },
+    {
+      "id": "ee57b0b5-7597-48f7-b6ab-b95e35b8d215",
+      "name": "Evolution Worlds",
+      "status": "not-owned"
+    },
+    {
+      "id": "37cfbcc1-4d43-41ab-9b80-4acf29e04ca0",
+      "name": "Extreme-G 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "f18c1bbd-cc3b-4404-b7d2-29131e6271aa",
+      "name": "F-Zero GX",
+      "status": "not-owned"
+    },
+    {
+      "id": "0f40bda3-f770-4498-aa37-f01433998614",
+      "name": "F1 2002",
+      "status": "not-owned"
+    },
+    {
+      "id": "d8865761-47b2-4d79-8328-6025d7b94d3a",
+      "name": "F1 Career Challenge",
+      "status": "not-owned"
+    },
+    {
+      "id": "29bcddaa-7466-4dbe-a987-162e181c0b87",
+      "name": "FIFA Soccer 06",
+      "status": "not-owned"
+    },
+    {
+      "id": "81940664-2969-4e4c-b1f6-ba07cc8f2752",
+      "name": "FIFA Soccer 07",
+      "status": "not-owned"
+    },
+    {
+      "id": "64b44f15-ddc0-4055-bc4c-2ac65e3d1dce",
+      "name": "FIFA Soccer 2003",
+      "status": "not-owned"
+    },
+    {
+      "id": "1a11aeeb-283c-4dc9-bad8-7c6b5809c852",
+      "name": "FIFA Soccer 2004",
+      "status": "not-owned"
+    },
+    {
+      "id": "0ef8f13e-b156-4266-b543-c2d91610f64c",
+      "name": "FIFA Soccer 2005",
+      "status": "not-owned"
+    },
+    {
+      "id": "c0b64b80-8c79-4e8f-b95a-2dbea60e339d",
+      "name": "FIFA Street",
+      "status": "not-owned"
+    },
+    {
+      "id": "f7160f93-bcfa-4608-a8cb-152347edb49a",
+      "name": "FIFA Street 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "66cedf69-2978-4776-80a2-262d5b201967",
+      "name": "Fight Night Round 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "6108b298-2eaa-4119-a72c-c3ceebd1c8f7",
+      "name": "Final Fantasy Crystal Chronicles",
+      "status": "not-owned"
+    },
+    {
+      "id": "05a1d1b0-3b6f-4b92-9126-aceb41ca6879",
+      "name": "Fire Blade",
+      "status": "not-owned"
+    },
+    {
+      "id": "c6b357d0-0cb0-4c0c-b854-4f6cbe73ce98",
+      "name": "Fire Emblem: Path of Radiance",
+      "status": "not-owned"
+    },
+    {
+      "id": "a6f2def4-618a-4448-a2f3-778eca8c9b4a",
+      "name": "Franklin: Un Anniversaire Surprise",
+      "status": "not-owned"
+    },
+    {
+      "id": "9d64eb7a-8dad-4784-abc1-8b5502656022",
+      "name": "Freedom Fighters",
+      "status": "not-owned"
+    },
+    {
+      "id": "a90c5fba-e2c8-4c96-955f-a60426d2dbb3",
+      "name": "Freekstyle",
+      "status": "not-owned"
+    },
+    {
+      "id": "89affd8f-6bec-4d4c-9b50-a8836ef2ff75",
+      "name": "Frogger Beyond",
+      "status": "not-owned"
+    },
+    {
+      "id": "4b283c9e-9b95-4456-9194-2366a8f54c50",
+      "name": "Future Tactics: The Uprising",
+      "status": "not-owned"
+    },
+    {
+      "id": "261fb8c1-c2d1-4d63-85a8-7da2fe1c1cc4",
+      "name": "GUN",
+      "status": "not-owned"
+    },
+    {
+      "id": "eb4df449-1aaa-4377-970c-2c6f22ec2d7f",
+      "name": "Gadget Racers",
+      "status": "not-owned"
+    },
+    {
+      "id": "2ef12d56-6bc6-4bda-8be2-8ce476d02032",
+      "name": "Gang de Requins",
+      "status": "not-owned"
+    },
+    {
+      "id": "a3ba5ac0-5f27-45fe-b207-9327c7cf3217",
+      "name": "Gauntlet: Dark Legacy",
+      "status": "not-owned"
+    },
+    {
+      "id": "b462cc19-705e-4363-b653-ff40846c41bf",
+      "name": "Geist",
+      "status": "not-owned"
+    },
+    {
+      "id": "24ee8e44-1611-4ff5-bed0-ae2804719141",
+      "name": "Gladius",
+      "status": "not-owned"
+    },
+    {
+      "id": "949bca06-e30e-48ca-b7ff-1e225ffa6da1",
+      "name": "Goblin Commander: Unleash the Horde",
+      "status": "not-owned"
+    },
+    {
+      "id": "42492724-ff4c-4430-8376-5193c68a8fcb",
+      "name": "God of War",
+      "status": "not-owned"
+    },
+    {
+      "id": "107a6b92-834a-4508-a54f-e890341ccef9",
+      "name": "God of War 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "3065411d-a4f3-45a2-b7d3-90056e73f235",
+      "name": "Godzilla: Destroy All Monsters Melee",
+      "status": "not-owned"
+    },
+    {
+      "id": "5f33d38a-cf69-4479-8f09-0318487768df",
+      "name": "GoldenEye: Rogue Agent",
+      "status": "not-owned"
+    },
+    {
+      "id": "07ad77af-e41f-4881-866c-cba9403dd299",
+      "name": "Gotcha Force",
+      "status": "not-owned"
+    },
+    {
+      "id": "524450d7-30fb-4afc-aaac-5abc8c599bc4",
+      "name": "Harry Potter a L'École des Sorciers",
+      "status": "not-owned"
+    },
+    {
+      "id": "6e5c9cc7-f20c-48ef-8c8d-ca4abb512374",
+      "name": "Harry Potter et la Chambre des Secrets",
+      "status": "not-owned"
+    },
+    {
+      "id": "d8dbfa95-dc61-46f1-94e2-35e9eb732e09",
+      "name": "Harry Potter et la Coupe de Feu",
+      "status": "not-owned"
+    },
+    {
+      "id": "d1c3a8ee-343d-4f0f-9447-14fc6870634d",
+      "name": "Harry Potter et le Prisonnier d'Azkaban",
+      "status": "not-owned"
+    },
+    {
+      "id": "0e173551-fd56-499b-b886-25fe67a2f808",
+      "name": "Harry Potter: Coupe du Monde de Quidditch",
+      "status": "not-owned"
+    },
+    {
+      "id": "77031eb5-197a-4406-9a5a-3f7e329e3036",
+      "name": "Harvest Moon: A Wonderful Life",
+      "status": "not-owned"
+    },
+    {
+      "id": "d2d36cbe-0fe9-4ba9-a75c-80deb552c8da",
+      "name": "Hello Kitty: Roller Rescue",
+      "status": "not-owned"
+    },
+    {
+      "id": "12a9489c-2b1a-48d1-a138-3ad4960def91",
+      "name": "Hitman 2: Silent Assassin",
+      "status": "not-owned"
+    },
+    {
+      "id": "678ca74f-8ab0-4556-89c4-1a68452a8bfa",
+      "name": "Hot Wheels Velocity X",
+      "status": "not-owned"
+    },
+    {
+      "id": "0d54d53d-7a25-41d1-a7ac-d0f55e0617f3",
+      "name": "Hot Wheels World Race",
+      "status": "not-owned"
+    },
+    {
+      "id": "acb10f18-bef4-42e3-8cfe-390be4563637",
+      "name": "Hulk",
+      "status": "not-owned"
+    },
+    {
+      "id": "cf4787d7-de53-4bfb-a38c-df8531826481",
+      "name": "Hunter: The Reckoning",
+      "status": "not-owned"
+    },
+    {
+      "id": "34f3a340-60eb-411e-a5b1-c4cd637e69b1",
+      "name": "Ikaruga",
+      "status": "not-owned"
+    },
+    {
+      "id": "d7d90b56-615d-44ab-81f1-6b7cd2db07b1",
+      "name": "International Superstar Soccer 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "54c88beb-3436-42e1-aa51-a92c9dc92041",
+      "name": "International Superstar Soccer 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "02e4d55d-f3be-4d89-8bd6-8cb9af5c85cf",
+      "name": "James Bond 007 Espion pour cible",
+      "status": "not-owned"
+    },
+    {
+      "id": "d2665abd-f7aa-4664-b4a7-436676638ba5",
+      "name": "James Bond 007: NightFire",
+      "status": "not-owned"
+    },
+    {
+      "id": "ea2e50fc-2dfd-4f07-b644-f0fe16775eef",
+      "name": "James Bond 007: Quitte ou Double",
+      "status": "not-owned"
+    },
+    {
+      "id": "88e28a94-a1e3-41cf-9e23-d379268c06b8",
+      "name": "Jeremy McGrath Supercross World",
+      "status": "not-owned"
+    },
+    {
+      "id": "5c91e70f-327c-4d63-9dba-3c77a9f97a2c",
+      "name": "Jimmy Neutron: Boy Genius",
+      "status": "not-owned"
+    },
+    {
+      "id": "6223caef-650b-405e-bc15-f1e483274eae",
+      "name": "Judge Dredd: Dredd Vs. Death",
+      "status": "not-owned"
+    },
+    {
+      "id": "16f190fb-4a07-45c9-ab6a-3d64a40ba0a3",
+      "name": "Kao the Kangaroo Round 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "d1a078d9-8d14-4333-97b0-eb4baff6bb34",
+      "name": "Kelly Slater's Pro Surfer",
+      "status": "not-owned"
+    },
+    {
+      "id": "8fb4622a-f35d-4a86-9e14-4427e6747977",
+      "name": "Killer7",
+      "status": "not-owned"
+    },
+    {
+      "id": "23e4f8bb-d746-4ee4-985f-f9f12847f0af",
+      "name": "King Arthur",
+      "status": "not-owned"
+    },
+    {
+      "id": "9528585a-ab7c-4339-8cef-a99040fa04ef",
+      "name": "King Kong",
+      "status": "not-owned"
+    },
+    {
+      "id": "d2076cb7-1ce0-49fb-96b2-4574c8b002cb",
+      "name": "Kirby Air Ride",
+      "status": "not-owned"
+    },
+    {
+      "id": "fe64043c-0889-445a-aaaa-c3bdfc5d70f6",
+      "name": "Knights of the Temple: Infernal Crusade",
+      "status": "not-owned"
+    },
+    {
+      "id": "86274616-93fe-43ab-8155-79e4f29d0e5c",
+      "name": "Knockout Kings 2003",
+      "status": "not-owned"
+    },
+    {
+      "id": "3c743383-7a95-4f14-b765-daad6bf53a55",
+      "name": "L'Age de Glace 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "03e531ab-b759-451e-b636-b93a917e85c6",
+      "name": "La Ferme en Folie",
+      "status": "not-owned"
+    },
+    {
+      "id": "0aafbb39-7b16-4c33-89ab-0887062148a8",
+      "name": "La Somme de Toutes les Peurs",
+      "status": "not-owned"
+    },
+    {
+      "id": "fe3f401e-b98a-400a-a50f-892718850adf",
+      "name": "Largo Winch: Empire Under Threat",
+      "status": "not-owned"
+    },
+    {
+      "id": "b089caa7-e273-481a-b1bf-c70a1063b926",
+      "name": "Le Monde de Narnia : Chapitre 1 : Le Lion, la Sorcière Blanche et l'Armoire Magique",
+      "status": "not-owned"
+    },
+    {
+      "id": "abecb303-fa34-45b2-b2a2-435b9fa63e77",
+      "name": "Le Monde de Némo",
+      "status": "not-owned"
+    },
+    {
+      "id": "1a2c7d65-8a86-468f-a760-3e20a4fba4f6",
+      "name": "Le Polar Express",
+      "status": "not-owned"
+    },
+    {
+      "id": "ba3b42d9-4ffd-4ea4-99b6-96f602b44f08",
+      "name": "Le Roi Scorpion : L'Ascension de l'Akkadien",
+      "status": "not-owned"
+    },
+    {
+      "id": "4eab8593-17e1-463a-8f8a-252a3aca96f8",
+      "name": "Le Règne du Feu",
+      "status": "not-owned"
+    },
+    {
+      "id": "6640935a-01b0-48f0-9f66-b235e9a7390b",
+      "name": "Le Seigneur des Anneaux: Le Retour du Roi",
+      "status": "not-owned"
+    },
+    {
+      "id": "03ecffe8-7b38-4d32-b6c6-f597b44f78cd",
+      "name": "Le Seigneur des Anneaux: Le Tiers Age",
+      "status": "not-owned"
+    },
+    {
+      "id": "260ab93b-f81e-48ce-a15c-febbf0dc490c",
+      "name": "Le Seigneur des Anneaux: Les Deux Tours",
+      "status": "not-owned"
+    },
+    {
+      "id": "628c9be0-9523-4c30-9522-584b57ed80f9",
+      "name": "Legends of Wrestling",
+      "status": "not-owned"
+    },
+    {
+      "id": "31624799-34b8-422b-a67e-e168b1fb4926",
+      "name": "Legends of Wrestling II",
+      "status": "not-owned"
+    },
+    {
+      "id": "05e88c16-24f8-4d19-9a70-67306096b715",
+      "name": "Lego Star Wars II: The Original Trilogy",
+      "status": "not-owned"
+    },
+    {
+      "id": "0bd547ca-6bdb-4156-aed0-2c437263fb3a",
+      "name": "Lego Star Wars: Le Jeu Vidéo",
+      "status": "not-owned"
+    },
+    {
+      "id": "21feae6e-7d94-432f-ba9b-c45026c53a14",
+      "name": "Les 4 Fantastiques",
+      "status": "not-owned"
+    },
+    {
+      "id": "8a882635-dea9-4349-b273-e43e7801c59a",
+      "name": "Les Aventures de Porcinet",
+      "status": "not-owned"
+    },
+    {
+      "id": "a81617dd-4fd5-4400-8216-d17be7ea6c80",
+      "name": "Les Désastreuses Aventures des Orphelins Baudelaire",
+      "status": "not-owned"
+    },
+    {
+      "id": "dc9db7d9-6867-4e3a-8cc3-7e7f6e62e205",
+      "name": "Les Indestructibles",
+      "status": "not-owned"
+    },
+    {
+      "id": "01cca517-88ac-4601-937b-bd4d7097fde0",
+      "name": "Les Indestructibles: La Terrible Attaque du Démolisseur",
+      "status": "not-owned"
+    },
+    {
+      "id": "a8c51dd3-7428-4966-8244-bd21b5f198ae",
+      "name": "Les Looney Tunes Passent à l'Action",
+      "status": "not-owned"
+    },
+    {
+      "id": "817ec98f-bff8-481d-8f4f-4f0f7ec33057",
+      "name": "Les Razmoket: La Rançon Royale",
+      "status": "not-owned"
+    },
+    {
+      "id": "c43522aa-8594-4be3-8bb8-3c4d6c7ff509",
+      "name": "Les Rebelles de la Forêt",
+      "status": "not-owned"
+    },
+    {
+      "id": "bf7f81ba-fa66-4802-9bc5-9b50d557efd7",
+      "name": "Les Royaumes Perdus II",
+      "status": "not-owned"
+    },
+    {
+      "id": "7839d8ff-5711-4941-85d0-d31542b38dd4",
+      "name": "Les Royaumes perdus",
+      "status": "not-owned"
+    },
+    {
+      "id": "0391853f-5d60-47c6-b3aa-830518a99135",
+      "name": "Les Sims Permis de Sortir",
+      "status": "not-owned"
+    },
+    {
+      "id": "3746a77a-23ed-4d99-b58f-2c91c74b80b7",
+      "name": "Luigi's Mansion",
+      "status": "not-owned"
+    },
+    {
+      "id": "02476db3-1d4c-4e18-95a3-4ac665857a73",
+      "name": "MC Groovz Dance Craze",
+      "status": "not-owned"
+    },
+    {
+      "id": "9cc4132f-81f1-435d-a4ec-9e8baa472fe5",
+      "name": "MX Superfly",
+      "status": "not-owned"
+    },
+    {
+      "id": "97cd38fb-8caa-4199-9c9c-1e35427f87a7",
+      "name": "Madagascar",
+      "status": "not-owned"
+    },
+    {
+      "id": "08d5a8be-a71e-426e-b88e-44dad6b64252",
+      "name": "Madden NFL 06",
+      "status": "not-owned"
+    },
+    {
+      "id": "80637fd6-d7cb-4dec-8260-4bf50a15e44b",
+      "name": "Madden NFL 2003",
+      "status": "not-owned"
+    },
+    {
+      "id": "de6503c6-3075-42c7-bf71-6a1eff1fce80",
+      "name": "Madden NFL 2004",
+      "status": "not-owned"
+    },
+    {
+      "id": "66e70ec8-25ca-4ee1-946f-2f252510f9bd",
+      "name": "Madden NFL 2005",
+      "status": "not-owned"
+    },
+    {
+      "id": "6e26618c-10f5-4d9b-8d13-c690ec2e72d5",
+      "name": "Mario Golf: Toadstool Tour",
+      "status": "not-owned"
+    },
+    {
+      "id": "a2e424dc-e4f6-4acf-97de-230a3e65bcce",
+      "name": "Mario Kart: Double Dash!!",
+      "status": "not-owned"
+    },
+    {
+      "id": "b0036859-aa40-419c-a460-63c39d812ada",
+      "name": "Mario Party 4",
+      "status": "not-owned"
+    },
+    {
+      "id": "8c0b1107-6468-4391-bbfe-395e30d7f5ed",
+      "name": "Mario Party 5",
+      "status": "not-owned"
+    },
+    {
+      "id": "91b9cd65-3364-455f-8aec-65960db92473",
+      "name": "Mario Party 6",
+      "status": "not-owned"
+    },
+    {
+      "id": "fba09674-0ace-4232-9596-7b2ba1f1a734",
+      "name": "Mario Party 7",
+      "status": "not-owned"
+    },
+    {
+      "id": "ae5bb40d-cf50-444d-b06a-04f03b769ac1",
+      "name": "Mario Power Tennis",
+      "status": "not-owned"
+    },
+    {
+      "id": "4d5dd506-6a97-4fd2-afec-2364ae52abb1",
+      "name": "Mario Smash Football",
+      "status": "not-owned"
+    },
+    {
+      "id": "163ef01d-41c4-45ee-8c78-e13722401271",
+      "name": "Mario Superstar Baseball",
+      "status": "not-owned"
+    },
+    {
+      "id": "5ea248b0-25a8-4bac-bfb9-fafa13acf2fd",
+      "name": "Marvel Nemesis: Rise of the Imperfects",
+      "status": "not-owned"
+    },
+    {
+      "id": "e1a81c7d-417f-4a70-be96-db722e1229f9",
+      "name": "Mary-Kate and Ashley: Sweet 16 - Licensed to Drive",
+      "status": "not-owned"
+    },
+    {
+      "id": "dd51c5e5-96ba-41a4-943e-c93061460ad4",
+      "name": "Mat Hoffman's Pro BMX 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "a88e6fb7-1ec4-42d2-a407-2d3ed1b190df",
+      "name": "Medabots Infinity",
+      "status": "not-owned"
+    },
+    {
+      "id": "e48a96f6-ab67-4143-b0fd-9c3a23b18afa",
+      "name": "Medal of Honor: En Première Ligne",
+      "status": "not-owned"
+    },
+    {
+      "id": "a46971e4-f33d-4e49-b344-9e62293c65f7",
+      "name": "Medal of Honor: Soleil Levant",
+      "status": "not-owned"
+    },
+    {
+      "id": "a341f12e-a9ff-48ce-bee9-81abc6554737",
+      "name": "Medal of Honor: les Faucons de Guerre",
+      "status": "not-owned"
+    },
+    {
+      "id": "d4f0f2fc-8e98-4366-b06e-e217d656276c",
+      "name": "Mega Man Network Transmission",
+      "status": "not-owned"
+    },
+    {
+      "id": "909219a2-9e41-46b9-8556-7fc66b57190c",
+      "name": "Mega Man X: Command Mission",
+      "status": "not-owned"
+    },
+    {
+      "id": "7db30386-4d72-493b-ac28-bb43dc7095d8",
+      "name": "Men in Black II: Alien Escape",
+      "status": "not-owned"
+    },
+    {
+      "id": "d0f2e2d0-520f-4f68-91bc-54cdcf2aa066",
+      "name": "Mercedes-Benz World Racing",
+      "status": "not-owned"
+    },
+    {
+      "id": "6cc72e75-faff-4359-bb4c-0e9f88c00050",
+      "name": "Metal Arms: Glitch in the System",
+      "status": "not-owned"
+    },
+    {
+      "id": "4939207f-ef2d-4c85-8477-445322754e8e",
+      "name": "Metal Gear Solid 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "4289950b-5290-4055-b065-2bda90a76029",
+      "name": "Metal Gear Solid 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "000461bc-bf9f-4087-bfc2-2f293e19d4ab",
+      "name": "Metal Gear Solid: The Twin Snakes",
+      "status": "not-owned"
+    },
+    {
+      "id": "0a002182-b3df-43ec-9321-2b0963fd4906",
+      "name": "Metroid Prime",
+      "status": "not-owned"
+    },
+    {
+      "id": "d7c004a1-149c-4b8a-a68c-186cdc1ad372",
+      "name": "Metroid Prime 2: Echoes",
+      "status": "not-owned"
+    },
+    {
+      "id": "39b7f78c-1213-416f-be4c-378114281d18",
+      "name": "Micro Machines",
+      "status": "not-owned"
+    },
+    {
+      "id": "acf69426-5f2d-4e01-8a18-dc742ec6572e",
+      "name": "Minority Report: Everybody Runs",
+      "status": "not-owned"
+    },
+    {
+      "id": "49dfe598-d181-42d3-b60e-ad338540045e",
+      "name": "Mission: Impossible - Operation Surma",
+      "status": "not-owned"
+    },
+    {
+      "id": "f2ce08fe-a788-4ec4-b95f-f986cb99b7f3",
+      "name": "Monopoly Party",
+      "status": "not-owned"
+    },
+    {
+      "id": "269e9ebe-7386-4956-a452-5d62e61af49d",
+      "name": "Monster House",
+      "status": "not-owned"
+    },
+    {
+      "id": "cc631f9b-a3e4-4366-af76-051326a759ac",
+      "name": "Monster Jam: Maximum Destruction",
+      "status": "not-owned"
+    },
+    {
+      "id": "43354bc7-b4d6-4186-85a4-53bdc9bdf435",
+      "name": "Monsters, Inc. Scream Arena",
+      "status": "not-owned"
+    },
+    {
+      "id": "ec3b0785-256b-4e6e-93d7-9e3447e9a785",
+      "name": "Mortal Kombat: Deadly Alliance",
+      "status": "not-owned"
+    },
+    {
+      "id": "209605cd-b1cc-40d5-94f9-c9e32b7e867e",
+      "name": "Mystic Heroes",
+      "status": "not-owned"
+    },
+    {
+      "id": "2b3579db-2349-4972-a33f-10d9bbebf878",
+      "name": "NBA 2K3",
+      "status": "not-owned"
+    },
+    {
+      "id": "0b407e66-8124-4eca-b332-0a4f370f836c",
+      "name": "NBA Courtside 2002",
+      "status": "not-owned"
+    },
+    {
+      "id": "edb88179-64b6-4cd8-aaba-15a514e6d9fa",
+      "name": "NBA Live 06",
+      "status": "not-owned"
+    },
+    {
+      "id": "edeaaddb-3c71-4b61-9ff8-fed1a05c39b5",
+      "name": "NBA Live 2003",
+      "status": "not-owned"
+    },
+    {
+      "id": "1038fb3c-6973-46a9-9769-2a449a350759",
+      "name": "NBA Live 2004",
+      "status": "not-owned"
+    },
+    {
+      "id": "d8b7bb78-e9c2-496b-8004-69b5c74efe91",
+      "name": "NBA Live 2005",
+      "status": "not-owned"
+    },
+    {
+      "id": "d35ae43f-8b59-4523-947f-7f68005746ed",
+      "name": "NBA Street V3",
+      "status": "not-owned"
+    },
+    {
+      "id": "c863af3b-9c0b-47dc-ba80-685506045f19",
+      "name": "NBA Street Vol. 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "eb06cd96-568c-419d-a7f9-f553e4f6a041",
+      "name": "NFL 2K3",
+      "status": "not-owned"
+    },
+    {
+      "id": "7eb38d52-7cf3-4801-ad1e-b0870782456d",
+      "name": "NFL Street",
+      "status": "not-owned"
+    },
+    {
+      "id": "46c69763-b9ec-4c11-81af-69ed27304cec",
+      "name": "NFL Street 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "85e04431-b5f9-4589-a646-54f9c5a0bbb1",
+      "name": "NHL 06",
+      "status": "not-owned"
+    },
+    {
+      "id": "c21b2ca5-2256-4350-8c50-c506599cc99d",
+      "name": "NHL 2003",
+      "status": "not-owned"
+    },
+    {
+      "id": "ad7ff520-ddef-4338-9edb-5a0c4424a03f",
+      "name": "NHL 2004",
+      "status": "not-owned"
+    },
+    {
+      "id": "0b0adea5-d6d4-4bc4-8eac-817b3f757690",
+      "name": "NHL 2005",
+      "status": "not-owned"
+    },
+    {
+      "id": "cc2746eb-d93c-4cdf-a51a-0c3e8c531833",
+      "name": "NHL 2K3",
+      "status": "not-owned"
+    },
+    {
+      "id": "2b5da3fb-d5b9-4fe8-9797-dcf5da455abb",
+      "name": "NHL Hitz 2002",
+      "status": "not-owned"
+    },
+    {
+      "id": "4a56d2f7-b8de-49bb-a10c-020eb37ed3e1",
+      "name": "NHL Hitz 2003",
+      "status": "not-owned"
+    },
+    {
+      "id": "243357aa-12c6-4b9f-9506-56e034e0905f",
+      "name": "Namco Museum 50th Anniversary",
+      "status": "not-owned"
+    },
+    {
+      "id": "14f6fb5c-a9e0-4297-9e9c-af183dfe7c3f",
+      "name": "Naruto: Clash of Ninja 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "2b0f8dfd-ef08-4389-85ca-c70130b519f4",
+      "name": "Need for Speed: Carbon",
+      "status": "not-owned"
+    },
+    {
+      "id": "45255707-3cec-466e-b537-b42ce2378c26",
+      "name": "Need for Speed: Hot Pursuit 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "f01a5008-78bf-4b6b-9259-b6a9292c62eb",
+      "name": "Need for Speed: Most Wanted",
+      "status": "not-owned"
+    },
+    {
+      "id": "4c8ac7c2-1b0d-4488-b1dc-8771f3edcce1",
+      "name": "Need for Speed: Underground",
+      "status": "not-owned"
+    },
+    {
+      "id": "08ab0df1-5691-4504-98e5-c0e94bb74987",
+      "name": "Need for Speed: Underground 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "3140d9fd-b38a-4f51-8c0f-558e77c25d84",
+      "name": "Nickelodeon Party Blast",
+      "status": "not-owned"
+    },
+    {
+      "id": "b68c480a-f3ea-468c-bc84-2694bb7a0e21",
+      "name": "Nos Voisins les Hommes",
+      "status": "not-owned"
+    },
+    {
+      "id": "acdd0b23-8f2d-46a1-bf65-c5f04a644acb",
+      "name": "Odama",
+      "status": "not-owned"
+    },
+    {
+      "id": "69040f1c-4e11-4489-9efe-1eb40e96bb52",
+      "name": "Outlaw Golf",
+      "status": "not-owned"
+    },
+    {
+      "id": "3daf419c-3366-4577-a4f0-cc513fd72711",
+      "name": "P.N.03",
+      "status": "not-owned"
+    },
+    {
+      "id": "657a401c-f9b7-480e-9bc1-577c722abfec",
+      "name": "Pac-Man World 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "29b7aa33-122e-4652-86cb-2b2cd84ac3c2",
+      "name": "Pac-Man World 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "a5bf3af8-82ca-4a35-b8d7-fd2d25e03fb7",
+      "name": "Paper Mario: La Porte Millénaire",
+      "status": "not-owned"
+    },
+    {
+      "id": "e7a48a10-8004-4333-9fdd-ccf5c1c8f47c",
+      "name": "Phantasy Star Online Episode I & II",
+      "status": "not-owned"
+    },
+    {
+      "id": "b8d42313-7350-49a9-8a4c-faa0fb5d8a4a",
+      "name": "Phantasy Star Online Episode III: C.A.R.D. Revolution",
+      "status": "not-owned"
+    },
+    {
+      "id": "7e54440a-ea05-4449-930c-f06298c02270",
+      "name": "Pikmin",
+      "status": "not-owned"
+    },
+    {
+      "id": "67c2da70-b684-4912-ba5e-463125bb2129",
+      "name": "Pikmin 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "87694eb4-b4f5-430c-97c8-730d7c9fad1b",
+      "name": "Pitfall: L'expédition perdue",
+      "status": "not-owned"
+    },
+    {
+      "id": "5bf7ea76-1fa9-411c-92dc-83caf2cb05cc",
+      "name": "Pokémon Box: Rubis et Saphir",
+      "status": "not-owned"
+    },
+    {
+      "id": "b55e7ba8-66a9-4717-a4d6-f8903245bf10",
+      "name": "Pokémon Channel",
+      "status": "not-owned"
+    },
+    {
+      "id": "5c92df96-e938-485b-8b22-186b06b9ae5e",
+      "name": "Pokémon Colosseum",
+      "status": "not-owned"
+    },
+    {
+      "id": "d4e6d79a-ca69-4d8a-bf7e-6543ec1b6427",
+      "name": "Pokémon XD: le Souffle des Ténèbres",
+      "status": "not-owned"
+    },
+    {
+      "id": "a53ef833-1818-4108-ad1a-d4c43fc168a6",
+      "name": "Pool Paradise",
+      "status": "not-owned"
+    },
+    {
+      "id": "fa6014dd-e1eb-4b5a-967d-1a71aecc3331",
+      "name": "Power Rangers: Dino Tonnerre",
+      "status": "not-owned"
+    },
+    {
+      "id": "d8cb34f3-bce0-40ca-bcfc-370a345e40af",
+      "name": "Prince of Persia: Les Sables du Temps",
+      "status": "not-owned"
+    },
+    {
+      "id": "29445481-3e8c-422e-8e9e-359d9692c248",
+      "name": "Prince of Persia: The Two Thrones",
+      "status": "not-owned"
+    },
+    {
+      "id": "454386c1-3e76-4ea4-8ebc-e9f127e3feb3",
+      "name": "Prince of Persia: Warrior Within",
+      "status": "not-owned"
+    },
+    {
+      "id": "d02964eb-4d14-40ad-9122-c4c2d2f80952",
+      "name": "Pro Rally",
+      "status": "not-owned"
+    },
+    {
+      "id": "c342e504-70b0-4658-9c0c-612b16a73cf8",
+      "name": "Puyo Pop Fever",
+      "status": "not-owned"
+    },
+    {
+      "id": "3484ad1c-58ca-4b31-8cc5-225d0f91f888",
+      "name": "R: Racing Evolution",
+      "status": "not-owned"
+    },
+    {
+      "id": "3c786543-a766-462c-a6f0-93e9d398558d",
+      "name": "Rally Championship",
+      "status": "not-owned"
+    },
+    {
+      "id": "d605d738-e121-4629-b7e6-b9d188f6f2b7",
+      "name": "Ratatouille",
+      "status": "not-owned"
+    },
+    {
+      "id": "72f6f999-36ec-4c7a-8cbb-f139435f05f7",
+      "name": "Rayman 3: Hoodlum Havoc",
+      "status": "not-owned"
+    },
+    {
+      "id": "66d5b336-af92-45a4-8c74-4cf2a9b634d9",
+      "name": "Red Faction II",
+      "status": "not-owned"
+    },
+    {
+      "id": "ce3f41fb-8a8a-4dd2-956b-34fd6bb2b4a4",
+      "name": "RedCard",
+      "status": "not-owned"
+    },
+    {
+      "id": "79a268bd-4551-46eb-a6f1-95fa14bb2503",
+      "name": "Resident 2 Evil",
+      "status": "not-owned"
+    },
+    {
+      "id": "6d36b7eb-e6be-4a50-844b-c097107b9635",
+      "name": "Resident 3 Evil",
+      "status": "not-owned"
+    },
+    {
+      "id": "efa76990-5a8c-4f5e-b842-54fc3c212e15",
+      "name": "Resident 4 Evil",
+      "status": "not-owned"
+    },
+    {
+      "id": "a870a12f-d6bb-404c-9109-22c814a47921",
+      "name": "Resident Evil",
+      "status": "not-owned"
+    },
+    {
+      "id": "00926ad0-284b-4be1-81b8-3867580be3cf",
+      "name": "Resident Evil - Code: Veronica",
+      "status": "not-owned"
+    },
+    {
+      "id": "5fcda9c6-df3d-4273-922b-83c3236b895b",
+      "name": "Resident Evil Zero",
+      "status": "not-owned"
+    },
+    {
+      "id": "20144b0d-c9b1-4e30-99e0-ef4c5626389a",
+      "name": "Ribbit King",
+      "status": "not-owned"
+    },
+    {
+      "id": "46d65ea5-c7a7-47ce-bd3c-39a17ca8478c",
+      "name": "Robotech: Battlecry",
+      "status": "not-owned"
+    },
+    {
+      "id": "4cb0b917-8b56-4236-8a06-36b2eb57099a",
+      "name": "Robots",
+      "status": "not-owned"
+    },
+    {
+      "id": "c8aa39b4-ef3d-4d75-aae8-710cbafea8a3",
+      "name": "Rocket Power: Beach Bandits",
+      "status": "not-owned"
+    },
+    {
+      "id": "97da079a-d969-4dbe-8eb7-2ef28b4f6152",
+      "name": "Rocky",
+      "status": "not-owned"
+    },
+    {
+      "id": "2bddf861-e865-4d25-8852-49f39d99ac6d",
+      "name": "Rogue Ops",
+      "status": "not-owned"
+    },
+    {
+      "id": "ba827cbc-f0a3-4ef8-a17f-b627c20384ac",
+      "name": "SSX 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "76cfec54-2bd1-41b0-8668-a84afae3c4ac",
+      "name": "SSX Tricky",
+      "status": "not-owned"
+    },
+    {
+      "id": "73093b67-aedb-46cc-ba57-a43c1185d9b2",
+      "name": "SSX on Tour",
+      "status": "not-owned"
+    },
+    {
+      "id": "0e55b40c-ca0c-469c-b715-3f377d460830",
+      "name": "SX Superstar",
+      "status": "not-owned"
+    },
+    {
+      "id": "24491e80-c175-4545-910e-2dd8326ae7c7",
+      "name": "Samurai Jack: The Shadow of Aku",
+      "status": "not-owned"
+    },
+    {
+      "id": "f79dbf5c-3221-4e7d-b071-1ead3e05b08f",
+      "name": "Scooby Doo! Le Livre des Ténèbres",
+      "status": "not-owned"
+    },
+    {
+      "id": "68cb1831-b666-4e37-91fd-32fd8d1ad11a",
+      "name": "Scooby-Doo! Démasqué",
+      "status": "not-owned"
+    },
+    {
+      "id": "40117ae3-ebd2-4a8d-b2a0-d8eefed9ac3b",
+      "name": "Scooby-Doo! La Nuit des 100 Frissons",
+      "status": "not-owned"
+    },
+    {
+      "id": "f4039620-5cb9-4be0-80ab-cc0e819d39fe",
+      "name": "Sea World: Shamu's Deep Sea Adventures",
+      "status": "not-owned"
+    },
+    {
+      "id": "0fe69b27-fb8f-4b30-8ed0-a927015a9320",
+      "name": "Second Sight",
+      "status": "not-owned"
+    },
+    {
+      "id": "291d2b5a-5236-4905-9f63-1e4eeffae005",
+      "name": "Sega Soccer Slam",
+      "status": "not-owned"
+    },
+    {
+      "id": "716f1508-13ed-430f-84f5-9bef25ab1a5e",
+      "name": "Serious Sam: Next Encounter",
+      "status": "not-owned"
+    },
+    {
+      "id": "7ad0d584-48f6-4e16-aafd-e4f3ecdacb04",
+      "name": "Shadow of the colossus",
+      "status": "not-owned"
+    },
+    {
+      "id": "763d5711-11a8-41d4-a42b-baa0137daf47",
+      "name": "Shadow the Hedgehog",
+      "status": "not-owned"
+    },
+    {
+      "id": "d5a2b52f-375a-4ac6-92b2-da90135dc5db",
+      "name": "Shrek 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "96439fb3-fe74-47f6-8ae1-57deb2d9c850",
+      "name": "Shrek Extra Large",
+      "status": "not-owned"
+    },
+    {
+      "id": "f91bb3fd-a11a-4921-b4f5-0d7fb1c65f08",
+      "name": "Shrek Smash n' Crash Racing",
+      "status": "not-owned"
+    },
+    {
+      "id": "aaa88a6d-447f-49f7-a51b-d5bb0534e4f6",
+      "name": "Shrek SuperSlam",
+      "status": "not-owned"
+    },
+    {
+      "id": "24173877-dd27-43b3-95b7-1a13f9e5cc87",
+      "name": "Shrek: Super Party",
+      "status": "not-owned"
+    },
+    {
+      "id": "34529f0b-7223-49ec-86d1-5033a00f6e72",
+      "name": "Silent Hill 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "9ab18e11-a0db-4263-83b8-cd159c9bbade",
+      "name": "Skies of Arcadia Legends",
+      "status": "not-owned"
+    },
+    {
+      "id": "f23ba76d-41e0-4496-ace2-3dfe2bcb360d",
+      "name": "Sly 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "fe6b55b3-4e7f-46e6-92dc-fe849821537c",
+      "name": "Sly 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "eae16a6f-5688-4e39-81da-285e239aeabd",
+      "name": "Sly Racoon",
+      "status": "not-owned"
+    },
+    {
+      "id": "3ecf1f73-ff9e-463e-b597-dcfde9ee10f5",
+      "name": "Smuggler's Run: Warzones",
+      "status": "not-owned"
+    },
+    {
+      "id": "968e4ec5-f462-4fd9-837e-1efdcb1df5e3",
+      "name": "Sonic Adventure 2: Battle",
+      "status": "not-owned"
+    },
+    {
+      "id": "c988f8da-201e-4a12-9b7d-1455d5257d1c",
+      "name": "Sonic Adventure DX: Director's Cut",
+      "status": "not-owned"
+    },
+    {
+      "id": "0e7ed83e-65fc-4e09-bc79-1121efefbcf8",
+      "name": "Sonic Gems Collection",
+      "status": "not-owned"
+    },
+    {
+      "id": "2018056e-6f75-4e9a-8b95-d86825a50291",
+      "name": "Sonic Heroes",
+      "status": "not-owned"
+    },
+    {
+      "id": "dc97d59f-0fd4-4920-9d76-2d99a4dc8a26",
+      "name": "Sonic Mega Collection",
+      "status": "not-owned"
+    },
+    {
+      "id": "c40868da-2d9a-4bae-994d-a5122edd68b4",
+      "name": "Sonic Riders",
+      "status": "not-owned"
+    },
+    {
+      "id": "452bf5c4-83c3-4be2-8017-c864d959e23d",
+      "name": "Soulcalibur II",
+      "status": "not-owned"
+    },
+    {
+      "id": "12ebf933-2b30-4fa2-b178-f8bd6f368d5f",
+      "name": "Souris City",
+      "status": "not-owned"
+    },
+    {
+      "id": "35d04288-b487-403b-8e90-2b8e5a0d49a6",
+      "name": "Spartan: Total Warrior",
+      "status": "not-owned"
+    },
+    {
+      "id": "2ecbeae5-4319-4742-856d-d15ef5dda7b6",
+      "name": "Spawn: Armageddon",
+      "status": "not-owned"
+    },
+    {
+      "id": "18cd81a0-5203-43cc-8f14-6a44dea35066",
+      "name": "Speed Challenge: Jacques Villeneuve's Racing Vision",
+      "status": "not-owned"
+    },
+    {
+      "id": "523b7c9a-f01f-4823-831c-8bbd4ae8c121",
+      "name": "Speed Kings",
+      "status": "not-owned"
+    },
+    {
+      "id": "aafb75d8-ad35-434c-95cd-6ba92a1715fb",
+      "name": "Sphinx Et La Malediction De La Momie",
+      "status": "not-owned"
+    },
+    {
+      "id": "26858b7a-0f0d-4e05-b07e-55407ea63c1e",
+      "name": "Spider-Man",
+      "status": "not-owned"
+    },
+    {
+      "id": "c8246136-762f-4208-90ee-1d23ef64f52b",
+      "name": "Spider-Man 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "2537e3cb-9962-4dff-8986-f0a3b74e657d",
+      "name": "SpongeBob SquarePants: Battle for Bikini Bottom",
+      "status": "not-owned"
+    },
+    {
+      "id": "03d773ae-54b9-4685-889a-ea9b082aac6d",
+      "name": "Spy Hunter",
+      "status": "not-owned"
+    },
+    {
+      "id": "34d9f912-9ed3-4da1-b251-e60911ef6bba",
+      "name": "Spyro: A Hero's Tail",
+      "status": "not-owned"
+    },
+    {
+      "id": "e15430ac-cbf4-424d-adcc-d24ba8301973",
+      "name": "Spyro: Enter the Dragonfly",
+      "status": "not-owned"
+    },
+    {
+      "id": "d0f18854-0bf2-4207-9677-bb39d9720452",
+      "name": "Star Fox Adventures",
+      "status": "not-owned"
+    },
+    {
+      "id": "143f4423-bb43-4a3e-b55a-d29adaa9f5a5",
+      "name": "Star Fox: Assault",
+      "status": "not-owned"
+    },
+    {
+      "id": "0d1d0215-c2ca-4f8e-88a9-f60206531705",
+      "name": "Star Wars Jedi Knight II: Jedi Outcast",
+      "status": "not-owned"
+    },
+    {
+      "id": "2745d00f-1381-4642-871b-e9ccce37abfa",
+      "name": "Star Wars Rogue Squadron II: Rogue Leader",
+      "status": "not-owned"
+    },
+    {
+      "id": "997462b2-d86d-41c1-baf0-bcb6516e43ec",
+      "name": "Star Wars Rogue Squadron III: Rebel Strike",
+      "status": "not-owned"
+    },
+    {
+      "id": "5ee6d256-38f6-4a85-a7b9-2be57010f19c",
+      "name": "Star Wars: Bounty Hunter",
+      "status": "not-owned"
+    },
+    {
+      "id": "61d9b5a2-f682-4a9d-a4bb-198101d8d335",
+      "name": "Star Wars: The Clone Wars",
+      "status": "not-owned"
+    },
+    {
+      "id": "cd465947-a3b9-4bd2-9c3d-5f56965e0765",
+      "name": "Starsky & Hutch",
+      "status": "not-owned"
+    },
+    {
+      "id": "c61cd478-b393-4768-95af-6bd9cd6b31fd",
+      "name": "Street Racing Syndicate",
+      "status": "not-owned"
+    },
+    {
+      "id": "ba2c5055-7fff-4213-b7d9-e815bc30c863",
+      "name": "Summoner: La Déesse Réincarnée",
+      "status": "not-owned"
+    },
+    {
+      "id": "875a7309-1a53-44c3-8df2-80925b731dd1",
+      "name": "Super Mario Sunshine",
+      "status": "not-owned"
+    },
+    {
+      "id": "4019ab81-59ba-4106-9f11-b882d2ee307b",
+      "name": "Super Monkey Ball",
+      "status": "not-owned"
+    },
+    {
+      "id": "23a75846-995e-472d-8430-f95d3ff45e7b",
+      "name": "Super Monkey Ball 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "db2b746e-febf-41df-92ee-1b08553e1924",
+      "name": "Super Monkey Ball Adventure",
+      "status": "not-owned"
+    },
+    {
+      "id": "ede75dfe-8f8d-45ee-9428-00cecbb44dc0",
+      "name": "Super Smash Bros. Melee",
+      "status": "not-owned"
+    },
+    {
+      "id": "e9307b47-683f-4dfd-a2bf-aa781e326cdc",
+      "name": "Superman: Shadow of Apokolips",
+      "status": "not-owned"
+    },
+    {
+      "id": "8df0e890-d830-419f-bdcd-c28020001e7a",
+      "name": "Swingerz Golf",
+      "status": "not-owned"
+    },
+    {
+      "id": "22fe546b-9210-4026-9c89-aac3e3f25dd5",
+      "name": "Tak 2: Le Scèptre des Rêves",
+      "status": "not-owned"
+    },
+    {
+      "id": "90db7a40-aa12-4eb6-a71f-a1f74bdd9066",
+      "name": "Tak et le Pouvoir de Juju",
+      "status": "not-owned"
+    },
+    {
+      "id": "8763f36e-78c6-4d2a-8bf3-f1d7c222e3c3",
+      "name": "Tak: The Great Juju Challenge",
+      "status": "not-owned"
+    },
+    {
+      "id": "38ddfa3d-a2a3-43fa-9604-c9b274b89b92",
+      "name": "Tales of Symphonia",
+      "status": "not-owned"
+    },
+    {
+      "id": "bdc3834e-8fb7-4ced-9c0f-ddd928ea1937",
+      "name": "Tarzan",
+      "status": "not-owned"
+    },
+    {
+      "id": "532d6e21-5724-409c-8c4c-3ff6c8871631",
+      "name": "Taxi 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "4a0ad3cb-539c-41fc-a086-56a62afe1a9b",
+      "name": "Taz: Wanted",
+      "status": "not-owned"
+    },
+    {
+      "id": "8d41a18a-a4a8-440d-afbb-4ff8bffde4b7",
+      "name": "Teen Titans",
+      "status": "not-owned"
+    },
+    {
+      "id": "205f22ad-1e11-4225-8d38-686aef59b236",
+      "name": "Teenage Mutant Ninja Turtles",
+      "status": "owned"
+    },
+    {
+      "id": "2bf00d3b-9d1a-49bf-8c23-c6f10c59b8e3",
+      "name": "Teenage Mutant Ninja Turtles 2: Battle Nexus",
+      "status": "not-owned"
+    },
+    {
+      "id": "58eaf94c-44f0-4929-bd3d-946c2130387e",
+      "name": "Terminator 3: The Redemption",
+      "status": "not-owned"
+    },
+    {
+      "id": "d6d77bd8-114d-46da-9b26-bdf0154d3c37",
+      "name": "Tetris Worlds",
+      "status": "not-owned"
+    },
+    {
+      "id": "939a1857-50b3-4f26-bdf8-b895a951c147",
+      "name": "The Adventures of Jimmy Neutron Boy Genius: Attack of the Twonkies",
+      "status": "not-owned"
+    },
+    {
+      "id": "5f8f0132-8619-4123-b0f9-2e2b64bfdf83",
+      "name": "The Adventures of Jimmy Neutron Boy Genius: Jet Fusion",
+      "status": "not-owned"
+    },
+    {
+      "id": "4ec836f1-f937-44e7-a3b0-fea68f1902f0",
+      "name": "The Hobbit",
+      "status": "not-owned"
+    },
+    {
+      "id": "0a28fbdf-e094-442d-a390-e0148ee6b5dc",
+      "name": "The Incredible Hulk: Ultimate Destruction",
+      "status": "not-owned"
+    },
+    {
+      "id": "b853a4bd-568c-455f-a651-555df23d2fc8",
+      "name": "The Legend of Spyro: A New Beginning",
+      "status": "not-owned"
+    },
+    {
+      "id": "07594369-04f2-4a90-888b-2c8d9377a160",
+      "name": "The Legend of Zelda: Four Swords Adventures",
+      "status": "not-owned"
+    },
+    {
+      "id": "9138652b-fe05-49c7-bac8-995f2aa95ddc",
+      "name": "The Legend of Zelda: Ocarina of Time / Master Quest",
+      "status": "not-owned"
+    },
+    {
+      "id": "c6e20c18-91b9-4a9d-8443-8fa2d187a0af",
+      "name": "The Legend of Zelda: The Wind Waker",
+      "status": "not-owned"
+    },
+    {
+      "id": "b98f5997-399c-4523-a431-a183d1304284",
+      "name": "The Legend of Zelda: Twilight Princess",
+      "status": "not-owned"
+    },
+    {
+      "id": "61168627-64a6-48fd-aeba-e920086aa6de",
+      "name": "The Powerpuff Girls: Relish Rampage - Pickled Edition",
+      "status": "not-owned"
+    },
+    {
+      "id": "c9bea817-6537-4cdf-9063-85e187f5716f",
+      "name": "The Simpsons: Hit & Run",
+      "status": "not-owned"
+    },
+    {
+      "id": "352dd037-8cbc-447d-8580-b9f1880a8caf",
+      "name": "The Simpsons: Road Rage",
+      "status": "not-owned"
+    },
+    {
+      "id": "255ac8ff-5e26-42d8-a6d9-2928dd1a998f",
+      "name": "The Sims",
+      "status": "not-owned"
+    },
+    {
+      "id": "8217a17c-6636-4cce-a896-7c9cfb20d4ec",
+      "name": "The Sims 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "8cdad80a-3ca5-443c-8590-018a9a79ce7c",
+      "name": "The Sims 2: Animaux & Cie",
+      "status": "not-owned"
+    },
+    {
+      "id": "64f30fc1-b2e1-4a02-a6ef-e052c5c2564e",
+      "name": "The Urbz: Sims in the City",
+      "status": "not-owned"
+    },
+    {
+      "id": "d59631a1-2b71-4bc0-b165-d85f907b7b09",
+      "name": "Tiger Woods PGA Tour 06",
+      "status": "not-owned"
+    },
+    {
+      "id": "314ba13e-7ef4-4403-9664-483abbd5d674",
+      "name": "Tiger Woods PGA Tour 2003",
+      "status": "not-owned"
+    },
+    {
+      "id": "89741237-57b8-4360-b0c6-0ab22c5df989",
+      "name": "Tiger Woods PGA Tour 2004",
+      "status": "not-owned"
+    },
+    {
+      "id": "7ddef9bf-bf24-46a6-8d29-a5e990d3e6e0",
+      "name": "Tiger Woods PGA Tour 2005",
+      "status": "not-owned"
+    },
+    {
+      "id": "8d628d39-2a01-42a1-80b0-d3ffdd86be1b",
+      "name": "TimeSplitters 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "d7bee2c7-477f-4f98-9426-33f639dded05",
+      "name": "TimeSplitters: Future Perfect",
+      "status": "not-owned"
+    },
+    {
+      "id": "eb6a14e9-2c55-4efd-bd7d-11650ba42bea",
+      "name": "Tom Clancy's Ghost Recon",
+      "status": "not-owned"
+    },
+    {
+      "id": "35509fee-5551-4fd0-989e-8cafdcf2a02a",
+      "name": "Tom Clancy's Ghost Recon 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "74e9f8e8-ccc5-4f74-a335-1b80e73f46b8",
+      "name": "Tom Clancy's Rainbow Six 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "92b6a799-d8e0-4a50-b60f-adadf9b9b993",
+      "name": "Tom Clancy's Rainbow Six: Lockdown",
+      "status": "not-owned"
+    },
+    {
+      "id": "4f69cd12-7454-4406-922e-d39507f0a630",
+      "name": "Tom Clancy's Splinter Cell",
+      "status": "not-owned"
+    },
+    {
+      "id": "38bb1ccd-b28d-4b8b-a144-0784470b853d",
+      "name": "Tom Clancy's Splinter Cell: Chaos Theory",
+      "status": "not-owned"
+    },
+    {
+      "id": "3c57e974-f544-461c-a585-ac553256dd11",
+      "name": "Tom Clancy's Splinter Cell: Double Agent",
+      "status": "not-owned"
+    },
+    {
+      "id": "65229352-6aee-4f21-ba77-a5efa5c430a0",
+      "name": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+      "status": "not-owned"
+    },
+    {
+      "id": "1146577d-e463-4496-b02a-7df6f28b1472",
+      "name": "Tomb Raider: Legend",
+      "status": "not-owned"
+    },
+    {
+      "id": "115ebf99-6fb1-47aa-a79b-0cd25c0eead9",
+      "name": "Tony Hawk's American Wasteland",
+      "status": "not-owned"
+    },
+    {
+      "id": "6e81731b-e158-4985-b3fe-76bdf7b10cc9",
+      "name": "Tony Hawk's Pro Skater 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "b6162337-36d3-4110-8dfb-cc02be9564ea",
+      "name": "Tony Hawk's Pro Skater 4",
+      "status": "not-owned"
+    },
+    {
+      "id": "7029192a-5555-488b-b281-73355ec5cacc",
+      "name": "Tony Hawk's Underground",
+      "status": "not-owned"
+    },
+    {
+      "id": "922e50b9-20e5-49b4-a58c-d2ed6bfdb753",
+      "name": "Tony Hawk's Underground 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "c8db5e8b-7088-4fd1-898c-b09889043f63",
+      "name": "Top Angler: Real Bass Fishing",
+      "status": "not-owned"
+    },
+    {
+      "id": "7d1540a6-a657-4c12-a181-4163bb5fd0ab",
+      "name": "Top Gun: Combat Zones",
+      "status": "not-owned"
+    },
+    {
+      "id": "dc845ab8-5029-4ed9-a1a4-aa10a1ae96bb",
+      "name": "True Crime: New York City",
+      "status": "not-owned"
+    },
+    {
+      "id": "9f943111-a297-45e5-9308-3dd0682dacac",
+      "name": "True Crime: Streets of LA",
+      "status": "not-owned"
+    },
+    {
+      "id": "00a01ffa-7898-4728-974a-1afdf9010e9f",
+      "name": "Turok: Evolution",
+      "status": "not-owned"
+    },
+    {
+      "id": "63a7ef09-d43d-4946-a077-49cbbaef4aa8",
+      "name": "Ty le Tigre de Tasmanie",
+      "status": "not-owned"
+    },
+    {
+      "id": "2a1d6ece-820a-4cf0-bf97-c1e33f427a1f",
+      "name": "Ty, le tigre de Tasmanie 2 : Opération Sauvetage",
+      "status": "not-owned"
+    },
+    {
+      "id": "f9e6f94b-bd50-46dc-b55a-cb46d33e8222",
+      "name": "UEFA Champions League 2004-2005",
+      "status": "not-owned"
+    },
+    {
+      "id": "9b4b0f1d-03cc-4809-80dc-16c11a448218",
+      "name": "Ultimate Fighting Championship: Throwdown",
+      "status": "not-owned"
+    },
+    {
+      "id": "b3d41a28-7b0f-440e-b050-3701d9b56bac",
+      "name": "Ultimate Spider-Man",
+      "status": "not-owned"
+    },
+    {
+      "id": "785c8949-7608-4e3d-9250-77a4d9d4a412",
+      "name": "Un Voisin d'Enfer",
+      "status": "not-owned"
+    },
+    {
+      "id": "b83020ce-8ce5-45cc-a5fa-9844f3968faf",
+      "name": "Universal Studios Theme Parks Adventure",
+      "status": "not-owned"
+    },
+    {
+      "id": "a0a53c4a-3bab-417d-85d7-7f079cf99145",
+      "name": "Urbna Freestyle Soccer",
+      "status": "not-owned"
+    },
+    {
+      "id": "44f2dc59-ba58-4c6a-825b-e08d63b1b5b7",
+      "name": "V-Rally 3",
+      "status": "not-owned"
+    },
+    {
+      "id": "489b2da9-ed38-4076-abea-8d8303f4f194",
+      "name": "VIP",
+      "status": "not-owned"
+    },
+    {
+      "id": "ef3e51a7-b532-4242-b0a5-822a5bb39290",
+      "name": "Vexx",
+      "status": "not-owned"
+    },
+    {
+      "id": "866ebd17-4e2c-4096-b874-0079c9e5391b",
+      "name": "Viewtiful Joe",
+      "status": "not-owned"
+    },
+    {
+      "id": "1322e2d9-0c3b-4547-9726-67570be25caf",
+      "name": "Viewtiful Joe 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "dbfadcfb-aef6-4eab-b3f7-64a96eeb983a",
+      "name": "Viewtiful Joe: Red Hot Rumble",
+      "status": "not-owned"
+    },
+    {
+      "id": "bf4da272-2ce0-427c-9b50-d8184180d41c",
+      "name": "Virtua Striker 2002",
+      "status": "not-owned"
+    },
+    {
+      "id": "d60dbbc0-794b-4ec3-89ce-59d7bfb012ca",
+      "name": "WTA Tour Tennis",
+      "status": "not-owned"
+    },
+    {
+      "id": "053e11de-17c8-4f50-9cad-eab386b7fd7c",
+      "name": "WWE Crush Hour",
+      "status": "not-owned"
+    },
+    {
+      "id": "3f65f8b5-36bf-4000-89b6-2eb7d7fd5073",
+      "name": "WWE Day of Reckoning",
+      "status": "not-owned"
+    },
+    {
+      "id": "a1f17b35-6a58-4a4e-a04a-36b33932b64e",
+      "name": "WWE Day of Reckoning 2",
+      "status": "not-owned"
+    },
+    {
+      "id": "4f7d4238-ebff-4d63-a78f-d49351c88c17",
+      "name": "WWE WrestleMania X8",
+      "status": "not-owned"
+    },
+    {
+      "id": "fe03f22f-1656-4e0a-80a7-974e99ff6ec2",
+      "name": "WWE WrestleMania XIX",
+      "status": "not-owned"
+    },
+    {
+      "id": "a44e7e1f-4328-46e6-a0e3-63b16b8a2202",
+      "name": "Wallace & Gromit dans le Projet Zoo",
+      "status": "not-owned"
+    },
+    {
+      "id": "a5c20fc6-f817-488d-bedd-09bf6bc90b67",
+      "name": "Wario World",
+      "status": "not-owned"
+    },
+    {
+      "id": "c8d195f9-002e-42dc-9ce3-1ff5b865a1ba",
+      "name": "WarioWare, Inc.: Mega Party Game",
+      "status": "not-owned"
+    },
+    {
+      "id": "163363ec-3206-4633-9c83-f42582b377ea",
+      "name": "Wave Race: Blue Storm",
+      "status": "not-owned"
+    },
+    {
+      "id": "63f81101-bfe5-4084-9ce7-61bb2edbe5a3",
+      "name": "Whirl Tour",
+      "status": "not-owned"
+    },
+    {
+      "id": "162f610c-3d25-4725-981b-5d1c46811c2f",
+      "name": "Winnie L'Ourson : A La Recherche Des Souvenirs Oubliés",
+      "status": "not-owned"
+    },
+    {
+      "id": "5c477661-4e00-488f-b72c-d58acd5c07bc",
+      "name": "World Series of Poker",
+      "status": "not-owned"
+    },
+    {
+      "id": "d4f73210-09f8-45d6-8281-0fceba3b55fd",
+      "name": "World Soccer Winning Eleven 6 Final Evolution",
+      "status": "not-owned"
+    },
+    {
+      "id": "846fd7e4-3ca1-41d7-a02d-0568264b73e9",
+      "name": "Worms 3D",
+      "status": "not-owned"
+    },
+    {
+      "id": "ed9e9015-5fab-409e-9799-6b67a55c4f46",
+      "name": "Worms Blast",
+      "status": "not-owned"
+    },
+    {
+      "id": "4b83dacb-5b82-4f7c-8213-f154798d7521",
+      "name": "Wreckless: The Yakuza Missions",
+      "status": "not-owned"
+    },
+    {
+      "id": "7789925c-c141-4374-bc23-83ec3e1dfce3",
+      "name": "X-Men 2: La Vengeance de Wolverine",
+      "status": "not-owned"
+    },
+    {
+      "id": "9080d0ad-87c2-4d0f-95cd-92baa373ba5b",
+      "name": "X-Men Legends",
+      "status": "not-owned"
+    },
+    {
+      "id": "4251d58e-dd2e-47f0-8104-ca19fcb1c7c5",
+      "name": "X-Men Legends II: L'Avenement d'Apocalypse",
+      "status": "not-owned"
+    },
+    {
+      "id": "115faa91-4f31-4499-8f63-f6c356a8f32a",
+      "name": "X-Men: Le Jeu Officiel",
+      "status": "not-owned"
+    },
+    {
+      "id": "551ba397-f2ed-4cc3-b1fb-8412a6edbe3d",
+      "name": "X-Men: Next Dimension",
+      "status": "not-owned"
+    },
+    {
+      "id": "a42ecf62-a084-4b2f-ae0c-169ea78834fe",
+      "name": "XGRA: Extreme-G Racing Association",
+      "status": "not-owned"
+    },
+    {
+      "id": "4b1dfe48-08e7-44d6-9ff1-843850bc974b",
+      "name": "XIII",
+      "status": "not-owned"
+    },
+    {
+      "id": "263c189b-a46d-4770-8937-3e5fdac21ef1",
+      "name": "Yu-Gi-Oh! L'Empire des Illusions",
+      "status": "not-owned"
+    },
+    {
+      "id": "c2484dfb-8d43-4379-b9f7-8545a9cb0bb1",
+      "name": "Zapper: Le Criquet Ravageur",
+      "status": "not-owned"
+    },
+    {
+      "id": "e6fb59ca-21e3-419b-b215-fbace9821e87",
+      "name": "ZooCube",
+      "status": "not-owned"
+    }
+  ]
+}
