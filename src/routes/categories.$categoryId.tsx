@@ -13,6 +13,7 @@ import { Game, Manga } from "../api/types";
 import ModalInput, { ModalType } from "../components/ModalInput";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { Input } from "@mui/material";
+import ModalAdd from "../components/ModalAdd";
 
 function getBackgroundColor(row: Row<Game | Manga>) {
   if ("total" in row.original) {
@@ -57,6 +58,7 @@ function Elements() {
   const { categoryId } = Route.useParams();
   const dataState = Route.useLoaderData() as (Game | Manga)[];
   const [modalState, setModalState] = useState<ModalType | undefined>();
+  const [isAddOpen, setIsAddOpen] = useState(false);
   const [search, setSearch] = useState<string | undefined>();
   const [elementsState, setElementsState] = useState(dataState);
 
@@ -187,6 +189,12 @@ function Elements() {
         onClose={() => setModalState(undefined)}
         onValidate={refetchElements}
       />
+      <ModalAdd
+        categoryId={categoryId}
+        isOpen={isAddOpen}
+        onClose={() => setIsAddOpen(false)}
+        onValidate={refetchElements}
+      />
       <div style={{ display: "flex" }}>
         <div
           style={{
@@ -201,8 +209,17 @@ function Elements() {
           style={{ border: "1px solid grey", marginBottom: "10px" }}
           onChange={(e) => setSearch(e.currentTarget.value)}
         />
+        <div
+          style={{
+            margin: "10px",
+            cursor: "pointer",
+          }}
+          onClick={() => setIsAddOpen(true)}
+        >
+          Add
+        </div>
         {totalPaid > 0 && (
-          <div style={{ margin: "10px" }}>total : {totalPaid}</div>
+          <div style={{ margin: "10px" }}>Total spent : {totalPaid}</div>
         )}
       </div>
       <div
