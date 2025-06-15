@@ -76,6 +76,15 @@ function Elements() {
     );
   }, [search, elementsState]);
 
+  const totalPaid = useMemo(() => {
+    return elements.reduce((total, element) => {
+      if ("price" in element && element.price) {
+        return total + element.price;
+      }
+      return total;
+    }, 0);
+  }, [elements]);
+
   const columns = React.useMemo<ColumnDef<Game | Manga>[]>(() => {
     const baseColumns: ColumnDef<Game | Manga>[] = [
       {
@@ -130,7 +139,7 @@ function Elements() {
               setModalState({
                 type: "price",
                 text: "Bougth at",
-                game: row.original as Game,
+                data: row.original as Game,
                 category: categoryId,
               })
             }
@@ -192,6 +201,9 @@ function Elements() {
           style={{ border: "1px solid grey", marginBottom: "10px" }}
           onChange={(e) => setSearch(e.currentTarget.value)}
         />
+        {totalPaid > 0 && (
+          <div style={{ margin: "10px" }}>total : {totalPaid}</div>
+        )}
       </div>
       <div
         ref={tableContainerRef}

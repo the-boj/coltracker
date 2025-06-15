@@ -14,7 +14,7 @@ interface BaseModal {
 interface PriceModal extends BaseModal {
   type: "price";
   category: string;
-  game: Game;
+  data: Game;
 }
 interface RatingModal extends BaseModal {
   type: "rating";
@@ -51,7 +51,7 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
         data: {
           category: state.category,
           item: {
-            ...state.game,
+            ...state.data,
             status: inputValue ? "owned" : "not-owned",
             price: inputValue ? Number(inputValue) : undefined,
           },
@@ -83,7 +83,10 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             {state?.text}
           </Typography>
-          <Input onChange={(e) => setInputValue(e.currentTarget.value)} />
+          <Input
+            onChange={(e) => setInputValue(e.currentTarget.value)}
+            defaultValue={state?.data.rating}
+          />
           <div style={{ display: "flex" }}>
             <Button style={{ marginLeft: "auto" }} onClick={onClose}>
               Close

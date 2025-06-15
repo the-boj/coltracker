@@ -8,12 +8,12 @@
     {
       "id": "gbc",
       "name": "Gameboy Color",
-      "image": "gameboy-color.svg"
+      "image": "gbc.svg"
     },
     {
       "id": "gba",
       "name": "Gameboy Advance",
-      "image": "gameboy-advance.svg"
+      "image": "gba.svg"
     },
     {
       "id": "ds",
@@ -15200,11 +15200,6 @@
       "status": "not-owned"
     },
     {
-      "id": "815a488d-5a6b-4219-a91e-956971e969ff",
-      "name": "Battlefront 2",
-      "status": "not-owned"
-    },
-    {
       "id": "699b7e8b-5b52-4c66-842e-47fe918963c2",
       "name": "Beach Spikers",
       "status": "not-owned"
@@ -15302,11 +15297,6 @@
     {
       "id": "2496616a-4f68-405a-a775-3d3d6c226435",
       "name": "Bratz: Rock Angelz",
-      "status": "not-owned"
-    },
-    {
-      "id": "91b6d7a3-724f-4fbb-8c7e-7502f634a2d9",
-      "name": "Budokai 3",
       "status": "not-owned"
     },
     {
@@ -15497,21 +15487,6 @@
     {
       "id": "e34f98c0-86f1-4f4e-83de-9c5f45596ea8",
       "name": "Defender",
-      "status": "not-owned"
-    },
-    {
-      "id": "246dcc3d-99b9-4eaa-8d4e-9c3728dce232",
-      "name": "Devil May Cry",
-      "status": "not-owned"
-    },
-    {
-      "id": "e40c4a4b-aa47-4633-9ee3-1f8ab22d5092",
-      "name": "Devil May Cry 2",
-      "status": "not-owned"
-    },
-    {
-      "id": "806e1ec4-b8ca-4d5e-ae36-53c9cfbfd983",
-      "name": "Devil May Cry 3",
       "status": "not-owned"
     },
     {
@@ -15787,16 +15762,6 @@
     {
       "id": "949bca06-e30e-48ca-b7ff-1e225ffa6da1",
       "name": "Goblin Commander: Unleash the Horde",
-      "status": "not-owned"
-    },
-    {
-      "id": "42492724-ff4c-4430-8376-5193c68a8fcb",
-      "name": "God of War",
-      "status": "not-owned"
-    },
-    {
-      "id": "107a6b92-834a-4508-a54f-e890341ccef9",
-      "name": "God of War 2",
       "status": "not-owned"
     },
     {
@@ -16237,16 +16202,6 @@
     {
       "id": "6cc72e75-faff-4359-bb4c-0e9f88c00050",
       "name": "Metal Arms: Glitch in the System",
-      "status": "not-owned"
-    },
-    {
-      "id": "4939207f-ef2d-4c85-8477-445322754e8e",
-      "name": "Metal Gear Solid 2",
-      "status": "not-owned"
-    },
-    {
-      "id": "4289950b-5290-4055-b065-2bda90a76029",
-      "name": "Metal Gear Solid 3",
       "status": "not-owned"
     },
     {
@@ -16705,11 +16660,6 @@
       "status": "not-owned"
     },
     {
-      "id": "7ad0d584-48f6-4e16-aafd-e4f3ecdacb04",
-      "name": "Shadow of the colossus",
-      "status": "not-owned"
-    },
-    {
       "id": "763d5711-11a8-41d4-a42b-baa0137daf47",
       "name": "Shadow the Hedgehog",
       "status": "not-owned"
@@ -16740,28 +16690,8 @@
       "status": "not-owned"
     },
     {
-      "id": "34529f0b-7223-49ec-86d1-5033a00f6e72",
-      "name": "Silent Hill 2",
-      "status": "not-owned"
-    },
-    {
       "id": "9ab18e11-a0db-4263-83b8-cd159c9bbade",
       "name": "Skies of Arcadia Legends",
-      "status": "not-owned"
-    },
-    {
-      "id": "f23ba76d-41e0-4496-ace2-3dfe2bcb360d",
-      "name": "Sly 2",
-      "status": "not-owned"
-    },
-    {
-      "id": "fe6b55b3-4e7f-46e6-92dc-fe849821537c",
-      "name": "Sly 3",
-      "status": "not-owned"
-    },
-    {
-      "id": "eae16a6f-5688-4e39-81da-285e239aeabd",
-      "name": "Sly Racoon",
       "status": "not-owned"
     },
     {
@@ -17251,7 +17181,7 @@
     },
     {
       "id": "a0a53c4a-3bab-417d-85d7-7f079cf99145",
-      "name": "Urbna Freestyle Soccer",
+      "name": "Urban Freestyle Soccer",
       "status": "not-owned"
     },
     {
