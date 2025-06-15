@@ -4,7 +4,7 @@ import { Game, Manga } from "./types";
 
 const filePath = "database.json";
 
-function readElements(categoryId: string): (Game | Manga)[] {
+export function readElements(categoryId: string): (Game | Manga)[] {
   const data = fs.readFileSync(filePath, "utf-8");
   const parsed = JSON.parse(data);
   return parsed[categoryId] || [];

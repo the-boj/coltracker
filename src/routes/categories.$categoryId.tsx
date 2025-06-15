@@ -54,19 +54,27 @@ const cellStyle = {
 };
 
 function Elements() {
+  const { categoryId } = Route.useParams();
   const dataState = Route.useLoaderData() as (Game | Manga)[];
   const [modalState, setModalState] = useState<ModalType | undefined>();
   const [search, setSearch] = useState<string | undefined>();
+  const [elementsState, setElementsState] = useState(dataState);
 
   const router = useRouter();
 
+  const refetchElements = () => {
+    getElements({
+      data: categoryId,
+    }).then((data) => {
+      setElementsState(data as (Game | Manga)[]);
+    });
+  };
+
   const elements = useMemo(() => {
-    return dataState.filter((element) =>
+    return elementsState.filter((element) =>
       element.name.toLowerCase().includes(search?.toLowerCase() || "")
     );
-  }, [search, dataState]);
-
-  const { categoryId } = Route.useParams();
+  }, [search, elementsState]);
 
   const columns = React.useMemo<ColumnDef<Game | Manga>[]>(() => {
     const baseColumns: ColumnDef<Game | Manga>[] = [
@@ -165,7 +173,11 @@ function Elements() {
 
   return (
     <div>
-      <ModalInput state={modalState} onClose={() => setModalState(undefined)} />
+      <ModalInput
+        state={modalState}
+        onClose={() => setModalState(undefined)}
+        onValidate={refetchElements}
+      />
       <div style={{ display: "flex" }}>
         <div
           style={{
@@ -186,11 +198,11 @@ function Elements() {
         style={{
           overflow: "auto", //our scrollable table container
           position: "relative", //needed for sticky header
-          height: "800px", //should be a fixed height
+          height: "90vh", //should be a fixed height
         }}
       >
         {/* Even though we're still using sematic table tags, we must use CSS grid and flexbox for dynamic row heights */}
-        <table style={{ display: "grid" }}>
+        <table style={{ display: "grid", width: "98%" }}>
           <thead
             style={{
               display: "grid",

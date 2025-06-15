@@ -39,9 +39,10 @@ const style = {
 interface Props {
   state?: ModalType;
   onClose: () => void;
+  onValidate: () => void;
 }
 
-export default function ModalInput({ state, onClose }: Props) {
+export default function ModalInput({ state, onClose, onValidate }: Props) {
   const [inputValue, setInputValue] = useState<string | undefined>();
 
   function validate() {
@@ -67,6 +68,7 @@ export default function ModalInput({ state, onClose }: Props) {
         },
       });
     }
+    onValidate();
     onClose();
   }
 
