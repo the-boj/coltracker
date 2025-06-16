@@ -34,13 +34,13 @@ export default function ModalAdd({
   const [inputName, setInputName] = useState<string | undefined>();
 
   function validate() {
-    if (category) {
+    if (category && inputName?.length) {
       addElement({
         data: {
           category: category.id,
           item: {
             id: crypto.randomUUID(),
-            name: inputName || "",
+            name: inputName,
             status: "not-owned",
           },
         },

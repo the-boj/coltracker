@@ -1,6 +1,7 @@
 import { ColumnDef } from "@tanstack/react-table";
 import { CategoryData } from "../api/types";
 import { ModalType } from "../components/ModalInput";
+import { Tooltip } from "@mui/material";
 
 export function getColumns(
   categoryId: string,
@@ -58,25 +59,50 @@ export function getColumns(
       size: 80,
     },
   ];
-  if (columns?.includes("description")) {
-    baseColumns.push({
-      header: "Description",
-      accessorKey: "description",
-      cell: ({ row }) => row.original.description,
-    });
-  }
   if (columns?.includes("owned")) {
     baseColumns.push({
       header: "Owned",
       accessorKey: "owned",
-      cell: ({ row }) => row.original.owned,
+      cell: ({ row }) => (
+        <div
+          className="cell-table"
+          onClick={() =>
+            setModalState({
+              type: "owned",
+              text: "Owned items",
+              category: categoryId,
+              data: row.original,
+            })
+          }
+          style={cellStyle}
+        >
+          {row.original.owned?.length}
+        </div>
+      ),
+      size: 80,
     });
   }
   if (columns?.includes("total")) {
     baseColumns.push({
       header: "Total",
       accessorKey: "total",
-      cell: ({ row }) => row.original.total,
+      cell: ({ row }) => (
+        <div
+          className="cell-table"
+          onClick={() =>
+            setModalState({
+              type: "total",
+              text: "Total of items",
+              category: categoryId,
+              data: row.original,
+            })
+          }
+          style={cellStyle}
+        >
+          {row.original.total}
+        </div>
+      ),
+      size: 80,
     });
   }
   if (columns?.includes("price")) {
@@ -103,5 +129,31 @@ export function getColumns(
       size: 80,
     });
   }
+  baseColumns.push({
+    header: "Description",
+    accessorKey: "description",
+    cell: ({ row }) => (
+      <Tooltip title={row.original.description} placement="top" arrow>
+        <div
+          className="cell-table"
+          onClick={() =>
+            setModalState({
+              type: "description",
+              text: "Some informations",
+              data: row.original,
+              category: categoryId,
+            })
+          }
+          style={{
+            ...cellStyle,
+            border: "0px",
+          }}
+        >
+          {row.original.description ? <div>i</div> : <div />}
+        </div>
+      </Tooltip>
+    ),
+    size: 80,
+  });
   return baseColumns;
 }

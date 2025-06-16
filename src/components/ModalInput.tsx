@@ -21,14 +21,34 @@ interface RatingModal extends BaseModal {
   category: string;
   data: CategoryData;
 }
-
+interface OwnedModal extends BaseModal {
+  type: "owned";
+  category: string;
+  data: CategoryData;
+}
+interface TotalModal extends BaseModal {
+  type: "total";
+  category: string;
+  data: CategoryData;
+}
 interface ConditionModal extends BaseModal {
   type: "condition";
   category: string;
   data: CategoryData;
 }
+interface DescriptionModal extends BaseModal {
+  type: "description";
+  category: string;
+  data: CategoryData;
+}
 
-export type ModalType = PriceModal | RatingModal | ConditionModal;
+export type ModalType =
+  | PriceModal
+  | RatingModal
+  | TotalModal
+  | OwnedModal
+  | ConditionModal
+  | DescriptionModal;
 
 const style = {
   position: "absolute",
@@ -88,6 +108,36 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
           },
         },
       });
+    } else if (state?.type === "description") {
+      updateElement({
+        data: {
+          category: state.category,
+          item: {
+            ...state.data,
+            description: inputValue || undefined,
+          },
+        },
+      });
+    } else if (state?.type === "total") {
+      updateElement({
+        data: {
+          category: state.category,
+          item: {
+            ...state.data,
+            total: inputValue ? Number(inputValue) : undefined,
+          },
+        },
+      });
+    } else if (state?.type === "owned") {
+      updateElement({
+        data: {
+          category: state.category,
+          item: {
+            ...state.data,
+            status: inputValue ? "owned" : "not-owned",
+          },
+        },
+      });
     }
     onValidate();
     onClose();
@@ -135,22 +185,37 @@ function getComponentInput(type: string, setValue: (value: string) => void) {
           onChange={(e) => setValue(e.target.value)}
         />
       );
+    case "total":
+      return (
+        <Input
+          type="number"
+          placeholder="Total of items"
+          onChange={(e) => setValue(e.target.value)}
+        />
+      );
+    case "owned":
+      return <div />;
+    case "description":
+      return (
+        <textarea
+          style={{ width: "300px", height: "100px" }}
+          placeholder="Description"
+          onChange={(e) => setValue(e.target.value)}
+        />
+      );
     case "condition":
       return (
-        <Select
-          onChange={(e) => setValue(e.target.value)}
-          defaultValue=""
-          displayEmpty
-          inputProps={{ "aria-label": "Condition" }}
-        >
+        <select onChange={(e) => setValue(e.target.value)} defaultValue="">
           <option value="" disabled>
             Select Condition
           </option>
           <option value="new">New</option>
           <option value="mint">Mint</option>
+          <option value="good">Good</option>
           <option value="used">Used</option>
+          <option value="uncomplete">Uncomplete</option>
           <option value="damaged">Damaged</option>
-        </Select>
+        </select>
       );
     default:
       return null;

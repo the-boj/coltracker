@@ -14,7 +14,7 @@ export interface CategoryDataBase {
   id: string;
   name: string;
   status: "owned" | "not-owned";
-  condition?: "new" | "mint" | "used" | "damaged";
+  condition?: "new" | "mint" | "good" | "used" | "uncomplete" | "damaged";
   rating?: number;
   description?: string;
 }
