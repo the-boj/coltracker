@@ -31,6 +31,18 @@ function Home() {
           </div>
         </Grid>
       ))}
+      <Grid key="add" size={{ xs: 3, md: 4 }}>
+        <div
+          className="category-item"
+          style={{
+            border: "1px solid grey",
+            fontSize: "3rem",
+          }}
+          onClick={() => router.navigate({ to: "/category" })}
+        >
+          +
+        </div>
+      </Grid>
     </Grid>
   );
 }

@@ -16,11 +16,11 @@ export interface CategoryDataBase {
   status: "owned" | "not-owned";
   condition?: "new" | "mint" | "used" | "damaged";
   rating?: number;
+  description?: string;
 }
 
 export interface CategoryData extends CategoryDataBase {
   price?: number;
   total?: number;
   owned?: number[];
-  description?: string;
 }
