@@ -1,10 +1,10 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { Button, Input } from "@mui/material";
+import { Button, Input, Select } from "@mui/material";
 import { useState } from "react";
 import { updateElement } from "../api/elements";
-import { Game, Manga } from "../api/types";
+import { CategoryData } from "../api/types";
 
 interface BaseModal {
   category: string;
@@ -14,15 +14,21 @@ interface BaseModal {
 interface PriceModal extends BaseModal {
   type: "price";
   category: string;
-  data: Game;
+  data: CategoryData;
 }
 interface RatingModal extends BaseModal {
   type: "rating";
   category: string;
-  data: Game | Manga;
+  data: CategoryData;
 }
 
-export type ModalType = PriceModal | RatingModal;
+interface ConditionModal extends BaseModal {
+  type: "condition";
+  category: string;
+  data: CategoryData;
+}
+
+export type ModalType = PriceModal | RatingModal | ConditionModal;
 
 const style = {
   position: "absolute",
@@ -67,6 +73,21 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
           },
         },
       });
+    } else if (state?.type === "condition") {
+      updateElement({
+        data: {
+          category: state.category,
+          item: {
+            ...state.data,
+            condition: inputValue as
+              | "new"
+              | "mint"
+              | "used"
+              | "damaged"
+              | undefined,
+          },
+        },
+      });
     }
     onValidate();
     onClose();
@@ -83,10 +104,7 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             {state?.text}
           </Typography>
-          <Input
-            onChange={(e) => setInputValue(e.currentTarget.value)}
-            defaultValue={state?.data.rating}
-          />
+          {getComponentInput(state?.type || "", setInputValue)}
           <div style={{ display: "flex" }}>
             <Button style={{ marginLeft: "auto" }} onClick={onClose}>
               Close
@@ -97,4 +115,44 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
       </Modal>
     </div>
   );
+}
+
+function getComponentInput(type: string, setValue: (value: string) => void) {
+  switch (type) {
+    case "price":
+      return (
+        <Input
+          type="number"
+          placeholder="Price"
+          onChange={(e) => setValue(e.target.value)}
+        />
+      );
+    case "rating":
+      return (
+        <Input
+          type="number"
+          placeholder="Rating"
+          onChange={(e) => setValue(e.target.value)}
+        />
+      );
+    case "condition":
+      return (
+        <Select
+          onChange={(e) => setValue(e.target.value)}
+          defaultValue=""
+          displayEmpty
+          inputProps={{ "aria-label": "Condition" }}
+        >
+          <option value="" disabled>
+            Select Condition
+          </option>
+          <option value="new">New</option>
+          <option value="mint">Mint</option>
+          <option value="used">Used</option>
+          <option value="damaged">Damaged</option>
+        </Select>
+      );
+    default:
+      return null;
+  }
 }

@@ -4,12 +4,7 @@ import Modal from "@mui/material/Modal";
 import { Button, Input } from "@mui/material";
 import { useState } from "react";
 import { addElement } from "../api/elements";
-import { Game } from "../api/types";
-
-interface ModalType {
-  category: string;
-  text: string;
-}
+import { Category } from "../api/types";
 
 const style = {
   position: "absolute",
@@ -24,14 +19,14 @@ const style = {
 };
 
 interface Props {
-  categoryId: string;
+  category?: Category;
   isOpen?: boolean;
   onClose: () => void;
   onValidate: () => void;
 }
 
 export default function ModalAdd({
-  categoryId,
+  category,
   isOpen,
   onClose,
   onValidate,
@@ -39,18 +34,20 @@ export default function ModalAdd({
   const [inputName, setInputName] = useState<string | undefined>();
 
   function validate() {
-    addElement({
-      data: {
-        category: categoryId,
-        item: {
-          id: crypto.randomUUID(),
-          name: inputName || "",
-          status: "not-owned",
+    if (category) {
+      addElement({
+        data: {
+          category: category.id,
+          item: {
+            id: crypto.randomUUID(),
+            name: inputName || "",
+            status: "not-owned",
+          },
         },
-      },
-    });
-    onValidate();
-    onClose();
+      });
+      onValidate();
+      onClose();
+    }
   }
 
   return (

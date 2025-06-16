@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { createFileRoute, useRouter } from "@tanstack/react-router";
-import { getElements } from "../api/elements";
+import { getElements, getElementsAndCategory } from "../api/elements";
 import {
   ColumnDef,
   flexRender,
@@ -9,17 +9,18 @@ import {
   Row,
   useReactTable,
 } from "@tanstack/react-table";
-import { Game, Manga } from "../api/types";
 import ModalInput, { ModalType } from "../components/ModalInput";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { Input } from "@mui/material";
 import ModalAdd from "../components/ModalAdd";
+import { getColumns } from "../utils/columns";
+import { CategoryData } from "../api/types";
 
-function getBackgroundColor(row: Row<Game | Manga>) {
+function getBackgroundColor(row: Row<CategoryData>) {
   if ("total" in row.original) {
-    if (row.original.owned.length === row.original.total) {
+    if (row.original.owned?.length === row.original.total) {
       return "green";
-    } else if (row.original.owned.length > 0) {
+    } else if (row.original.owned?.length || 0 > 0) {
       return "yellow";
     }
     return "white";
@@ -31,7 +32,7 @@ function getBackgroundColor(row: Row<Game | Manga>) {
   }
 }
 
-function getTextColor(row: Row<Game | Manga>) {
+function getTextColor(row: Row<CategoryData>) {
   const background = getBackgroundColor(row);
   if (background === "white") {
     return "black";
@@ -41,7 +42,8 @@ function getTextColor(row: Row<Game | Manga>) {
 
 export const Route = createFileRoute("/categories/$categoryId")({
   component: Elements,
-  loader: async ({ params }) => getElements({ data: params.categoryId }),
+  loader: async ({ params }) =>
+    getElementsAndCategory({ data: params.categoryId }),
 });
 
 const cellStyle = {
@@ -56,11 +58,12 @@ const cellStyle = {
 
 function Elements() {
   const { categoryId } = Route.useParams();
-  const dataState = Route.useLoaderData() as (Game | Manga)[];
+  const { elements: elementsFetched, category: categoryFetched } =
+    Route.useLoaderData();
   const [modalState, setModalState] = useState<ModalType | undefined>();
   const [isAddOpen, setIsAddOpen] = useState(false);
   const [search, setSearch] = useState<string | undefined>();
-  const [elementsState, setElementsState] = useState(dataState);
+  const [elementsState, setElementsState] = useState(elementsFetched);
 
   const router = useRouter();
 
@@ -68,7 +71,7 @@ function Elements() {
     getElements({
       data: categoryId,
     }).then((data) => {
-      setElementsState(data as (Game | Manga)[]);
+      setElementsState(data);
     });
   };
 
@@ -87,74 +90,16 @@ function Elements() {
     }, 0);
   }, [elements]);
 
-  const columns = React.useMemo<ColumnDef<Game | Manga>[]>(() => {
-    const baseColumns: ColumnDef<Game | Manga>[] = [
-      {
-        header: "Name",
-        accessorKey: "name",
-        cell: ({ row }) => row.original.name,
-        size: 600,
-      },
-      {
-        header: "Rating",
-        accessorKey: "rating",
-        cell: ({ row }) => (
-          <div
-            className="cell-table"
-            onClick={() =>
-              setModalState({
-                type: "rating",
-                text: "Your rating",
-                category: categoryId,
-                data: row.original as Game,
-              })
-            }
-            style={cellStyle}
-          >
-            {row.original.rating}
-          </div>
-        ),
-        size: 80,
-      },
-    ];
-    const isManga = elements.length > 0 && "total" in elements[0];
-    if (isManga) {
-      baseColumns.push({
-        header: "Owned",
-        accessorKey: "owned",
-        cell: ({ row }) => (row.original as Manga).owned,
-      });
-      baseColumns.push({
-        header: "Total",
-        accessorKey: "total",
-        cell: ({ row }) => (row.original as Manga).total,
-      });
-    }
-    if (!isManga) {
-      baseColumns.push({
-        header: "Bought at",
-        accessorKey: "boughtAt",
-        cell: ({ row }) => (
-          <div
-            className="cell-table"
-            onClick={() =>
-              setModalState({
-                type: "price",
-                text: "Bougth at",
-                data: row.original as Game,
-                category: categoryId,
-              })
-            }
-            style={cellStyle}
-          >
-            {(row.original as Game).price}
-          </div>
-        ),
-        size: 80,
-      });
-    }
-    return baseColumns;
-  }, []);
+  const columns = React.useMemo<ColumnDef<CategoryData>[]>(
+    () =>
+      getColumns(
+        categoryId,
+        cellStyle,
+        setModalState,
+        categoryFetched?.columns
+      ),
+    []
+  );
 
   // The virtualizer will need a reference to the scrollable container element
   const tableContainerRef = React.useRef<HTMLDivElement>(null);
@@ -190,7 +135,7 @@ function Elements() {
         onValidate={refetchElements}
       />
       <ModalAdd
-        categoryId={categoryId}
+        category={categoryFetched}
         isOpen={isAddOpen}
         onClose={() => setIsAddOpen(false)}
         onValidate={refetchElements}
@@ -200,10 +145,21 @@ function Elements() {
           style={{
             margin: "10px",
             cursor: "pointer",
+            fontWeight: "bold",
           }}
           onClick={() => router.navigate({ to: "/" })}
         >
           Home
+        </div>
+        <div
+          style={{
+            margin: "7px",
+            cursor: "pointer",
+            fontWeight: "bold",
+            fontSize: "22px",
+          }}
+        >
+          {categoryFetched?.name}
         </div>
         <Input
           style={{ border: "1px solid grey", marginBottom: "10px" }}
@@ -211,8 +167,11 @@ function Elements() {
         />
         <div
           style={{
-            margin: "10px",
+            margin: "9px",
+            marginLeft: "auto",
             cursor: "pointer",
+            fontWeight: "bold",
+            fontSize: "18px",
           }}
           onClick={() => setIsAddOpen(true)}
         >
@@ -286,7 +245,7 @@ function Elements() {
             }}
           >
             {rowVirtualizer.getVirtualItems().map((virtualRow) => {
-              const row = rows[virtualRow.index] as Row<Game | Manga>;
+              const row = rows[virtualRow.index] as Row<CategoryData>;
               return (
                 <tr
                   data-index={virtualRow.index} //needed for dynamic row height measurement
