@@ -13,7 +13,21 @@ export function getColumns(
     {
       header: "Name",
       accessorKey: "name",
-      cell: ({ row }) => row.original.name,
+      cell: ({ row }) => (
+        <div
+          onClick={() =>
+            setModalState({
+              type: "name",
+              text: "Update the item's name",
+              category: categoryId,
+              data: row.original,
+            })
+          }
+          style={{ cursor: "pointer" }}
+        >
+          {row.original.name}
+        </div>
+      ),
       size: 600,
     },
     {

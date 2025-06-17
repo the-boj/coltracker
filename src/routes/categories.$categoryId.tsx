@@ -1,6 +1,10 @@
 import React, { useMemo, useState } from "react";
 import { createFileRoute, useRouter } from "@tanstack/react-router";
-import { getElements, getElementsAndCategory } from "../api/elements";
+import {
+  deleteElement,
+  getElements,
+  getElementsAndCategory,
+} from "../api/elements";
 import {
   ColumnDef,
   flexRender,
@@ -72,6 +76,14 @@ function Elements() {
       data: categoryId,
     }).then((data) => {
       setElementsState(data);
+    });
+  };
+
+  const deleteRow = (id: string) => {
+    deleteElement({
+      data: { category: categoryId, id },
+    }).then(() => {
+      setElementsState((prev) => prev.filter((element) => element.id !== id));
     });
   };
 
@@ -251,6 +263,7 @@ function Elements() {
                   data-index={virtualRow.index} //needed for dynamic row height measurement
                   ref={(node) => rowVirtualizer.measureElement(node)} //measure dynamic row height
                   key={row.id}
+                  className="hover-row"
                   style={{
                     backgroundColor: getBackgroundColor(row),
                     color: getTextColor(row),
@@ -280,6 +293,17 @@ function Elements() {
                       </td>
                     );
                   })}
+                  <td
+                    className="edit-delete"
+                    style={{
+                      marginRight: "20px",
+                      marginLeft: "auto",
+                      cursor: "pointer",
+                    }}
+                    onClick={() => deleteRow(row.original.id)}
+                  >
+                    Delete
+                  </td>
                 </tr>
               );
             })}

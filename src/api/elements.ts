@@ -16,7 +16,7 @@ function readCategory(categoryId: string): Category | undefined {
   return parsed.categories.find((category) => category.id === categoryId);
 }
 
-function patchGame(category: string, newItem: CategoryData): void {
+function patchItem(category: string, newItem: CategoryData): void {
   const data = fs.readFileSync(filePath, "utf-8");
   const parsed = JSON.parse(data);
   const newCate = parsed[category].map((item: CategoryData) => {
@@ -29,7 +29,17 @@ function patchGame(category: string, newItem: CategoryData): void {
   fs.writeFileSync(filePath, JSON.stringify(parsed, null, 2), "utf8");
 }
 
-function addGame(category: string, newItem: CategoryData): void {
+function deleteItem(category: string, id: string): void {
+  const data = fs.readFileSync(filePath, "utf-8");
+  const parsed = JSON.parse(data);
+  const newCate = parsed[category].filter(
+    (item: CategoryData) => item.id !== id
+  );
+  parsed[category] = newCate;
+  fs.writeFileSync(filePath, JSON.stringify(parsed, null, 2), "utf8");
+}
+
+function addItem(category: string, newItem: CategoryData): void {
   const data = fs.readFileSync(filePath, "utf-8");
   const parsed = JSON.parse(data);
   const dataCate = parsed[category] || [];
@@ -76,7 +86,7 @@ export const updateElement = createServerFn({
     return data;
   })
   .handler((ctx) => {
-    return patchGame(ctx.data.category, ctx.data.item);
+    return patchItem(ctx.data.category, ctx.data.item);
   });
 
 export const addElement = createServerFn({
@@ -86,5 +96,15 @@ export const addElement = createServerFn({
     return data;
   })
   .handler((ctx) => {
-    return addGame(ctx.data.category, ctx.data.item);
+    return addItem(ctx.data.category, ctx.data.item);
+  });
+
+export const deleteElement = createServerFn({
+  method: "POST",
+})
+  .validator((data: { category: string; id: string }) => {
+    return data;
+  })
+  .handler((ctx) => {
+    return deleteItem(ctx.data.category, ctx.data.id);
   });

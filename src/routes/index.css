@@ -25,5 +25,16 @@
 }
 
 .cell-table:hover {
-  background-color: #7b7a7a;
+  background-color: #d1cdcd;
+}
+
+.hover-row td.edit-delete {
+  visibility: hidden; /* Hide by default */
+  opacity: 0; /* Make it fully transparent */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.hover-row:hover td.edit-delete {
+  visibility: visible; /* Show on hover */
+  opacity: 1; /* Make it fully visible */
 }

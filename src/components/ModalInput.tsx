@@ -11,6 +11,11 @@ interface BaseModal {
   text: string;
 }
 
+interface NameModal extends BaseModal {
+  type: "name";
+  category: string;
+  data: CategoryData;
+}
 interface PriceModal extends BaseModal {
   type: "price";
   category: string;
@@ -43,6 +48,7 @@ interface DescriptionModal extends BaseModal {
 }
 
 export type ModalType =
+  | NameModal
   | PriceModal
   | RatingModal
   | TotalModal
@@ -129,12 +135,22 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
         },
       });
     } else if (state?.type === "owned") {
+      // updateElement({
+      //   data: {
+      //     category: state.category,
+      //     item: {
+      //       ...state.data,
+      //       owned: [],
+      //     },
+      //   },
+      // });
+    } else if (state?.type === "name" && inputValue?.length) {
       updateElement({
         data: {
           category: state.category,
           item: {
             ...state.data,
-            status: inputValue ? "owned" : "not-owned",
+            name: inputValue,
           },
         },
       });
@@ -154,7 +170,7 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             {state?.text}
           </Typography>
-          {getComponentInput(state?.type || "", setInputValue)}
+          {getComponentInput(state?.type || "", setInputValue, state?.data)}
           <div style={{ display: "flex" }}>
             <Button style={{ marginLeft: "auto" }} onClick={onClose}>
               Close
@@ -167,7 +183,11 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
   );
 }
 
-function getComponentInput(type: string, setValue: (value: string) => void) {
+function getComponentInput(
+  type: string,
+  setValue: (value: string) => void,
+  item?: CategoryData
+) {
   switch (type) {
     case "price":
       return (
@@ -200,6 +220,15 @@ function getComponentInput(type: string, setValue: (value: string) => void) {
         <textarea
           style={{ width: "300px", height: "100px" }}
           placeholder="Description"
+          onChange={(e) => setValue(e.target.value)}
+        />
+      );
+    case "name":
+      return (
+        <Input
+          type="text"
+          placeholder="Name"
+          defaultValue={item?.name}
           onChange={(e) => setValue(e.target.value)}
         />
       );
