@@ -60,7 +60,7 @@ export default function ModalAdd({
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Add a new game
+            Add a new item
           </Typography>
           <Input onChange={(e) => setInputName(e.currentTarget.value)} />
           <div style={{ display: "flex" }}>
