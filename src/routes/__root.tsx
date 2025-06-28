@@ -6,6 +6,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
+import { checkFileExistence } from "../api/storage";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -23,6 +24,7 @@ export const Route = createRootRoute({
     ],
   }),
   component: RootComponent,
+  loader: async () => checkFileExistence(),
 });
 
 function RootComponent() {

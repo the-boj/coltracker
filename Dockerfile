@@ -7,9 +7,6 @@ WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
-# Copy the database to use 
-COPY database-new.json ./database.json
- 
 # Install dependencies
 RUN npm install
  

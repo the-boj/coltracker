@@ -1,8 +1,7 @@
 import * as fs from "node:fs";
 import { createServerFn } from "@tanstack/react-start";
 import { Category, CategoryData } from "./types";
-
-const filePath = "database.json";
+import { filePath } from "./storage";
 
 export function readElements(categoryId: string): CategoryData[] {
   const data = fs.readFileSync(filePath, "utf-8");
