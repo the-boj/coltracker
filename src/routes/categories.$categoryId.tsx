@@ -24,6 +24,11 @@ function getBackgroundColor(row: Row<CategoryData>) {
   if ("total" in row.original) {
     if (row.original.owned?.length === row.original.total) {
       return "green";
+    } else if (
+      typeof row.original.owned === "undefined" &&
+      (row.original.total || 0) > 0
+    ) {
+      return "green";
     } else if (row.original.owned?.length || 0 > 0) {
       return "yellow";
     }
