@@ -5,6 +5,7 @@ import { Button, Input } from "@mui/material";
 import { useState } from "react";
 import { addElement } from "../api/elements";
 import { Category } from "../api/types";
+import { generateUuid } from "../utils/ids";
 
 const style = {
   position: "absolute",
@@ -39,7 +40,7 @@ export default function ModalAdd({
         data: {
           category: category.id,
           item: {
-            id: crypto.randomUUID(),
+            id: generateUuid(),
             name: inputName,
             status: "not-owned",
           },

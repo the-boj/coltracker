@@ -10,6 +10,7 @@ import { Category } from "../api/types";
 import { useState } from "react";
 import { fileToBase64 } from "../utils/files";
 import { createCategory } from "../api/categories";
+import { generateUuid } from "../utils/ids";
 
 export const Route = createFileRoute("/category")({
   component: RouteComponent,
@@ -51,7 +52,7 @@ function RouteComponent() {
     const buffer = await fileToBase64(selectedFile);
 
     const cate: Omit<Category, "image"> = {
-      id: crypto.randomUUID(),
+      id: generateUuid(),
       name,
       columns,
     };
