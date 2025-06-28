@@ -35,7 +35,7 @@ export const createCategory = createServerFn({
   .handler(async ({ data }) => {
     const decodedString = atob(data.image);
     const buffer = Buffer.from(decodedString, "binary");
-    const fullPath = `./public/${data.filename}`;
+    const fullPath = `/app/data/public/${data.filename}`;
     fs.writeFileSync(fullPath, buffer);
 
     const cateFull = {
