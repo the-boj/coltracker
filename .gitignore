@@ -1,5 +1,2 @@
 node_modules
-data.json
-new-data.json
-database.json
-script.js
+.*

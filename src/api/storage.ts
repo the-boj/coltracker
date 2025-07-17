@@ -2,6 +2,7 @@ import { createServerFn } from "@tanstack/react-start";
 import * as fs from "node:fs";
 
 export const filePath = "/app/data/database.json";
+const folderPath = "/app/data/public";
 
 function fileExists(): boolean {
   try {
@@ -22,7 +23,7 @@ function createFile(): void {
 
 function folderExists(): boolean {
   try {
-    fs.accessSync("/app/data/public", fs.constants.F_OK);
+    fs.accessSync(folderPath, fs.constants.F_OK);
     return true;
   } catch (error) {
     return false;
@@ -30,7 +31,7 @@ function folderExists(): boolean {
 }
 
 function createFolder(): void {
-  fs.mkdirSync("/app/data/public", { recursive: true });
+  fs.mkdirSync(folderPath, { recursive: true });
 }
 
 export const checkFileExistence = createServerFn({

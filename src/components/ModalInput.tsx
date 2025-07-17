@@ -1,10 +1,11 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { Button, Input, Select } from "@mui/material";
-import { useState } from "react";
+import { Button, Input } from "@mui/material";
+import { useEffect, useState } from "react";
 import { updateElement } from "../api/elements";
 import { CategoryData } from "../api/types";
+import OwnedItemsManager from "./OwnedItemsManager";
 
 interface BaseModal {
   category: string;
@@ -76,6 +77,28 @@ interface Props {
 
 export default function ModalInput({ state, onClose, onValidate }: Props) {
   const [inputValue, setInputValue] = useState<string | undefined>();
+  const [ownedItems, setOwnedItems] = useState<number[]>([]);
+
+  // Update ownedItems when state changes
+  useEffect(() => {
+    if (state?.type === "owned") {
+      setOwnedItems(state.data.owned || []);
+    }
+  }, [state]);
+
+  useEffect(() => {
+    if (state && ownedItems?.length) {
+      updateElement({
+        data: {
+          category: state.category,
+          item: {
+            ...state.data,
+            owned: ownedItems,
+          },
+        },
+      });
+    }
+  }, [ownedItems]);
 
   function validate() {
     if (state?.type === "price") {
@@ -135,15 +158,15 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
         },
       });
     } else if (state?.type === "owned") {
-      // updateElement({
-      //   data: {
-      //     category: state.category,
-      //     item: {
-      //       ...state.data,
-      //       owned: [],
-      //     },
-      //   },
-      // });
+      updateElement({
+        data: {
+          category: state.category,
+          item: {
+            ...state.data,
+            owned: ownedItems,
+          },
+        },
+      });
     } else if (state?.type === "name" && inputValue?.length) {
       updateElement({
         data: {
@@ -170,7 +193,14 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             {state?.text}
           </Typography>
-          {getComponentInput(state?.type || "", setInputValue, state?.data)}
+          {getComponentInput(
+            state?.type || "",
+            setInputValue,
+            state?.data,
+            ownedItems,
+            setOwnedItems,
+            onClose
+          )}
           <div style={{ display: "flex" }}>
             <Button style={{ marginLeft: "auto" }} onClick={onClose}>
               Close
@@ -186,7 +216,10 @@ export default function ModalInput({ state, onClose, onValidate }: Props) {
 function getComponentInput(
   type: string,
   setValue: (value: string) => void,
-  item?: CategoryData
+  item?: CategoryData,
+  ownedItems?: number[],
+  setOwnedItems?: (items: number[]) => void,
+  onClose?: () => void
 ) {
   switch (type) {
     case "price":
@@ -214,7 +247,19 @@ function getComponentInput(
         />
       );
     case "owned":
-      return <div />;
+      if (!ownedItems || !setOwnedItems || !item) {
+        return (
+          <div>Error: Missing required data for owned items management</div>
+        );
+      }
+      return (
+        <OwnedItemsManager
+          currentOwned={ownedItems}
+          total={item.total || 0}
+          onUpdate={setOwnedItems}
+          onClose={onClose}
+        />
+      );
     case "description":
       return (
         <textarea

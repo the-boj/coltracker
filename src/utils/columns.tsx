@@ -2,6 +2,12 @@ import { ColumnDef } from "@tanstack/react-table";
 import { CategoryData } from "../api/types";
 import { ModalType } from "../components/ModalInput";
 import { Tooltip } from "@mui/material";
+import {
+  formatOwnedForCell,
+  getTooltipContent,
+  formatOwnedAdvanced,
+  getConsecutiveGroups,
+} from "./ownedItems";
 
 export function getColumns(
   categoryId: string,
@@ -77,22 +83,51 @@ export function getColumns(
     baseColumns.push({
       header: "Owned",
       accessorKey: "owned",
-      cell: ({ row }) => (
-        <div
-          className="cell-table"
-          onClick={() =>
-            setModalState({
-              type: "owned",
-              text: "Owned items",
-              category: categoryId,
-              data: row.original,
-            })
-          }
-          style={cellStyle}
-        >
-          {row.original.owned?.length}
-        </div>
-      ),
+      cell: ({ row }) => {
+        const owned = row.original.owned || [];
+        const total = row.original.total;
+        const groups = getConsecutiveGroups(owned);
+        const hasRanges = groups.some((group) => group.isRange);
+
+        // Use enhanced formatting for display
+        const displayText =
+          owned.length <= 5
+            ? formatOwnedAdvanced(owned, {
+                highlightRanges: hasRanges,
+                maxLength: 30,
+              })
+            : formatOwnedForCell(owned, total);
+
+        // Enhanced tooltip with range information
+        const rangeCount = groups.filter((group) => group.isRange).length;
+        const tooltipContent =
+          owned.length > 0
+            ? `${getTooltipContent(owned)}${rangeCount > 0 ? ` • ${rangeCount} consecutive range${rangeCount > 1 ? "s" : ""}` : ""}`
+            : "No items owned";
+
+        return (
+          <Tooltip title={tooltipContent} placement="top" arrow>
+            <div
+              className="cell-table"
+              onClick={() =>
+                setModalState({
+                  type: "owned",
+                  text: "Owned items",
+                  category: categoryId,
+                  data: row.original,
+                })
+              }
+              style={{
+                ...cellStyle,
+                fontFamily: hasRanges ? "monospace" : "inherit",
+                fontSize: hasRanges ? "0.85em" : "inherit",
+              }}
+            >
+              {displayText}
+            </div>
+          </Tooltip>
+        );
+      },
       size: 80,
     });
   }

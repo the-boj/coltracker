@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite dev --host --port 3008"
+    "dev": "vite dev --host --port 3008",
+    "build": "vite build"
   },
   "author": "",
   "license": "ISC",

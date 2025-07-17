@@ -28,20 +28,23 @@ export const createCategory = createServerFn({
   .validator(
     (data: {
       category: Omit<Category, "image">;
-      filename: string;
-      image: string;
+      filename?: string;
+      image?: string;
     }) => data
   )
   .handler(async ({ data }) => {
-    const decodedString = atob(data.image);
-    const buffer = Buffer.from(decodedString, "binary");
-    const fullPath = `/app/data/public/${data.filename}`;
-    fs.writeFileSync(fullPath, buffer);
+    let cateFull: any = data.category;
 
-    const cateFull = {
-      ...data.category,
-      image: fullPath,
-    };
+    if (data.image && data.filename) {
+      const decodedString = atob(data.image);
+      const buffer = Buffer.from(decodedString, "binary");
+      const fullPath = `./data/public/${data.filename}`;
+      fs.writeFileSync(fullPath, buffer);
+      cateFull = {
+        ...cateFull,
+        image: fullPath,
+      };
+    }
 
     return putCategory(cateFull);
   });

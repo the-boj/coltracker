@@ -43,7 +43,7 @@ function getBackgroundColor(row: Row<CategoryData>) {
 
 function getTextColor(row: Row<CategoryData>) {
   const background = getBackgroundColor(row);
-  if (background === "white") {
+  if (background === "white" || background === "yellow") {
     return "black";
   }
   return "white";

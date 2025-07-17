@@ -6,7 +6,7 @@ export type CategoryList = { categories: Category[] };
 export interface Category {
   id: string;
   name: string;
-  image: string;
+  image?: string;
   columns: string[];
 }
 

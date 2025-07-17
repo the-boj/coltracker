@@ -27,10 +27,6 @@ function RouteComponent() {
   async function addCategory(e) {
     e.preventDefault();
 
-    if (!selectedFile) {
-      return;
-    }
-
     const columns: string[] = [];
 
     const formData = new FormData(e.target);
@@ -49,7 +45,10 @@ function RouteComponent() {
       columns.push("owned");
     }
 
-    const buffer = await fileToBase64(selectedFile);
+    let buffer;
+    if (selectedFile) {
+      buffer = await fileToBase64(selectedFile);
+    }
 
     const cate: Omit<Category, "image"> = {
       id: generateUuid(),
@@ -58,7 +57,7 @@ function RouteComponent() {
     };
 
     createCategory({
-      data: { category: cate, filename: selectedFile.name, image: buffer },
+      data: { category: cate, filename: selectedFile?.name, image: buffer },
     }).then(() => {
       router.navigate({ to: "/" });
     });
